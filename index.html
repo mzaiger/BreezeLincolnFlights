@@ -289,7 +289,6 @@ function fmtTime(dt){
 }
 
 function tripTypeLabel(tripType){
-  // "Wednesday-Saturday" or "Saturday-Wednesday"
   if(/^Wed/i.test(tripType)) return { label: 'Wed\u2013Sat', cls: 'type-wed' };
   if(/^Sat/i.test(tripType)) return { label: 'Sat\u2013Wed', cls: 'type-sat' };
   return { label: tripType, cls: '' };
@@ -360,30 +359,62 @@ function render(key){
   const bagCost = parseFloat(document.getElementById('bagCost').value) || 0;
   const promoPct = Math.min(100, Math.max(0, parseFloat(document.getElementById('promoCode').value) || 0));
 
-  // 1. Define Fixed Fees (Security Fee $11.20 + Segment Tax $10.60 + Carrier Fee $49.00)
   const fixedFees = 70.80; 
-  
-  // 2. Define Facility Charges ($2.25 per segment)
-  // Vegas: Direct = 2 segments ($4.50); LA: 1 stop = 4 segments ($9.00)
   const segments = (key === 'las') ? 2 : 4;
   const facilityCharge = segments * 2.25;
-  
-  // 3. Federal Excise Tax (7.5% of base price)
-  // We calculate this as a variable amount based on the row's basePrice
-  
-  let html = `<table>...</table>`; // (Keep your existing table headers here)
+
+  let html = `<table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Total</th>
+        <th>Base Fare</th>
+        <th>Promo Savings</th>
+        <th>Seat Sel.</th>
+        <th>Baggage</th>
+        <th>Outbound</th>
+        <th>Return</th>
+        <th>Type</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>`;
 
   cfg.data.forEach((row, i) => {
     const fet = row.basePrice * 0.075;
     const totalExcludedFees = fixedFees + facilityCharge + fet;
     
-    // Calculate Promo Savings based on remaining base price
     const taxableBase = Math.max(0, row.basePrice - totalExcludedFees);
     const promoSavings = taxableBase * (promoPct/100);
-    
     const total = (row.basePrice - promoSavings) + seatCost + bagCost;
     
-    // ... (Keep the rest of your rendering logic)
+    const type = tripTypeLabel(row.tripType);
+    const rowId = key + '-row-' + i;
+
+    html += `<tr>
+      <td class="rank">${i+1}</td>
+      <td class="price-total">$${total.toFixed(0)}+</td>
+      <td>$${row.basePrice.toFixed(0)}</td>
+      <td class="savings">${promoSavings > 0 ? '-$' + promoSavings.toFixed(0) : '$0'}</td>
+      <td>$${seatCost.toFixed(0)}</td>
+      <td>$${bagCost.toFixed(0)}</td>
+      <td>${fmtDate(row.outbound)}</td>
+      <td>${fmtDate(row.returnDate)}</td>
+      <td class="${type.cls}">${type.label}</td>
+      <td><button class="detail-btn" onclick="toggleDetails('${rowId}')">View</button></td>
+    </tr>
+    <tr class="details-row" id="${rowId}" style="display:none;">
+      <td colspan="10">
+        <div class="details-content">
+          ${buildLegsHtml(row.flightInfo)}
+          <div class="breakdown">
+            <span>Base Fare: $${row.basePrice.toFixed(0)}</span>
+            <span>Promo (${promoPct}% of $${taxableBase.toFixed(0)}): -$${promoSavings.toFixed(0)}</span>
+            <span>Total: $${total.toFixed(0)}</span>
+          </div>
+        </div>
+      </td>
+    </tr>`;
   });
 
   html += '</tbody></table>';
