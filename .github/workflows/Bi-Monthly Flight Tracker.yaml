@@ -20,7 +20,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests serpapi google-search-results
 
       - name: Run Vegas Flight Tracker
         run: python VegasFlights.py
