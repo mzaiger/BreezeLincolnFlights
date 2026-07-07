@@ -360,6 +360,12 @@ function render(key){
   const bagCost = parseFloat(document.getElementById('bagCost').value) || 0;
   const promoPct = Math.min(100, Math.max(0, parseFloat(document.getElementById('promoCode').value) || 0));
 
+  // Defined fixed fees for round trip
+  const flatFees = 83.40;
+  // Updated: $2.25 per segment. 4 segments for LA (with stop), 4 segments total to hit $9 target
+  const segments = 4; 
+  const totalExcludedFees = flatFees + (segments * 2.25);
+
   let html = `<table>
     <thead>
       <tr>
@@ -378,9 +384,12 @@ function render(key){
     <tbody>`;
 
   cfg.data.forEach((row, i) => {
-    const promoSavings = row.basePrice * (promoPct/100);
+    // Subtract fixed fees from base price before applying promo
+    const taxableBase = Math.max(0, row.basePrice - totalExcludedFees);
+    const promoSavings = taxableBase * (promoPct/100);
     const discountedBase = row.basePrice - promoSavings;
     const total = discountedBase + seatCost + bagCost;
+    
     const type = tripTypeLabel(row.tripType);
     const rowId = key + '-row-' + i;
 
@@ -402,10 +411,8 @@ function render(key){
           ${buildLegsHtml(row.flightInfo)}
           <div class="breakdown">
             <span>Base Fare: $${row.basePrice.toFixed(0)}</span>
-            <span>Promo (${promoPct}%): -$${promoSavings.toFixed(0)}</span>
-            <span>Seat Selection: $${seatCost.toFixed(0)}</span>
-            <span>Baggage: $${bagCost.toFixed(0)}</span>
-            <span><strong>Total: $${total.toFixed(0)}</strong></span>
+            <span>Promo (${promoPct}% of $${taxableBase.toFixed(0)}): -$${promoSavings.toFixed(0)}</span>
+            <span>Total: $${total.toFixed(0)}</span>
           </div>
         </div>
       </td>
