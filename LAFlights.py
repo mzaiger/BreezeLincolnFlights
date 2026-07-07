@@ -52,7 +52,7 @@ while current <= end_date:
                 "currency": "USD",
                 "type": "1",
                 "adults": "1",
-                "stops": "1"
+                "stops": "2"
             })
 
             # Convert SerpAPI result to plain dict
