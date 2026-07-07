@@ -1,4 +1,3 @@
-import os
 import json
 import time
 from datetime import date, timedelta
@@ -36,7 +35,6 @@ while current <= end_date:
         })
 
     for search in searches:
-
         print(
             f"Searching {search['trip_type']} "
             f"{search['outbound_date']} -> {search['return_date']}"
@@ -48,7 +46,7 @@ while current <= end_date:
                 "hl": "en",
                 "gl": "us",
                 "departure_id": "LNK",
-                "arrival_id": "SNA",  # Updated to Anaheim (SNA)
+                "arrival_id": "SNA",
                 "outbound_date": search["outbound_date"],
                 "return_date": search["return_date"],
                 "currency": "USD",
@@ -74,14 +72,14 @@ while current <= end_date:
             })
 
             print("  Success")
-
             # Be nice to the API
             time.sleep(2)
 
         except Exception as e:
             print(f"  Error: {e}")
 
-        current += timedelta(days=1)
+    # Corrected placement: Increment current date here
+    current += timedelta(days=1)
 
 # Updated output filename to reflect SNA
 with open("lnk_sna_6months.json", "w", encoding="utf-8") as f:
