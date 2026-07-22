@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=0.5">
-<title>Lincoln Flight Prices - 4 Months</title>
+<title>Lincoln Flight Prices</title>
 <style>
   :root{
     --navy:#0d1b4c;
@@ -231,7 +231,7 @@
 <body>
 
 <div class="page-header">
-  <h1>Lincoln Flight Prices - 4 Months</h1>
+  <h1>Lincoln Flight Prices</h1>
   <p>Base fare, ranked cheapest to most expensive &mdash; adjust seat selection and baggage below</p>
   <p style="font-size:0.8rem; color:#6a7ab5; margin-top:2px;">Data updates once a month, on the 1st.</p>
   <p id="lastChecked" style="font-size:0.75rem; color:#9aa6d6; margin-top:2px;"></p>
@@ -268,8 +268,8 @@
 
 <script>
 const FILES = {
-  las: { url: 'lnk_las_4months.json', contentId: 'content-las', data: null },
-  sna: { url: 'lnk_sna_4months.json', contentId: 'content-sna', data: null }
+  las: { url: 'lnk_las_6months.json', contentId: 'content-las', data: null },
+  sna: { url: 'lnk_sna_6months.json', contentId: 'content-sna', data: null }
 };
 
 function fmtDate(iso){
@@ -298,8 +298,9 @@ function tripTypeLabel(tripType){
 }
 
 async function loadFlights(url){
-  const cacheBustUrl = url + (url.includes('?') ? '&' : '?') + 'v=' + Date.now();
-  const res = await fetch(cacheBustUrl, { cache: 'no-store' });
+  const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
+  const dateBustUrl = url + (url.includes('?') ? '&' : '?') + 'date=' + today;
+  const res = await fetch(dateBustUrl);
   if(!res.ok) throw new Error('Failed to load ' + url);
   const raw = await res.json();
 
