@@ -298,9 +298,8 @@ function tripTypeLabel(tripType){
 }
 
 async function loadFlights(url){
-  const today = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
-  const dateBustUrl = url + (url.includes('?') ? '&' : '?') + 'date=' + today;
-  const res = await fetch(dateBustUrl);
+  const bustUrl = url + (url.includes('?') ? '&' : '?') + 'v=' + Date.now();
+  const res = await fetch(bustUrl);
   if(!res.ok) throw new Error('Failed to load ' + url);
   const raw = await res.json();
 
