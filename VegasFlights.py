@@ -13,7 +13,7 @@ client = serpapi.Client(api_key=API_KEY)
 DEPARTURE_ID = "LNK"
 ARRIVAL_ID = "LAS"
 STOPS = "1"  # 1 = nonstop only... kept same value as original script (Google's "stops" filter code)
-OUTPUT_FILE = "lnk_las_6months.json"
+OUTPUT_FILE = "lnk_las_4months.json"
 TEST_OUTPUT_FILE = "lnk_las_test.json"
 
 
@@ -85,7 +85,7 @@ def slim_flight(option):
 
 def run(test_mode):
     start_date = date.today()
-    end_date = start_date + timedelta(days=183)
+    end_date = start_date + timedelta(days=122)  # ~4 months
 
     all_results = []
     current = start_date
@@ -161,7 +161,7 @@ def run(test_mode):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Search LNK -> LAS flight prices.")
+    parser = argparse.ArgumentParser(description="Search LNK -> LAS flight prices (4 months out).")
     parser.add_argument(
         "--test", action="store_true",
         help="Only run one date pair, write to a separate test file, and stop.",
