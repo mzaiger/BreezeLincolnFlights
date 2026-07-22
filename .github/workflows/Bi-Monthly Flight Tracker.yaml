@@ -26,12 +26,12 @@ jobs:
         run: pip install serpapi
 
       - name: Run Vegas Flight Tracker
-        run: python VegasFlights.py --test
+        run: python VegasFlights.py
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
 
       - name: Run LA Flight Tracker
-        run: python LAFlights.py --test
+        run: python LAFlights.py
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
 
