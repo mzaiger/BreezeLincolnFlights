@@ -1,5 +1,8 @@
+import os
+import sys
 import json
 import time
+import argparse
 from datetime import date, timedelta
 import serpapi
 
@@ -7,83 +10,161 @@ API_KEY = os.getenv("SERPAPI_KEY")
 
 client = serpapi.Client(api_key=API_KEY)
 
-start_date = date.today()
-end_date = start_date + timedelta(days=183)
+DEPARTURE_ID = "LNK"
+ARRIVAL_ID = "SNA"
+STOPS = "2"  # kept same value as original script (Google's "stops" filter code)
+OUTPUT_FILE = "lnk_sna_6months.json"
+TEST_OUTPUT_FILE = "lnk_sna_test.json"
 
-all_results = []
 
-current = start_date
-
-while current <= end_date:
-
-    searches = []
-
-    # Wednesday -> Saturday
-    if current.weekday() == 2:  # Wednesday
-        searches.append({
-            "trip_type": "Wednesday-Saturday",
-            "outbound_date": current.strftime("%Y-%m-%d"),
-            "return_date": (current + timedelta(days=3)).strftime("%Y-%m-%d")
-        })
-
-    # Saturday -> Wednesday
-    elif current.weekday() == 5:  # Saturday
-        searches.append({
-            "trip_type": "Saturday-Wednesday",
-            "outbound_date": current.strftime("%Y-%m-%d"),
-            "return_date": (current + timedelta(days=4)).strftime("%Y-%m-%d")
-        })
-
-    for search in searches:
-        print(
-            f"Searching {search['trip_type']} "
-            f"{search['outbound_date']} -> {search['return_date']}"
-        )
-
+def to_plain_dict(results):
+    """Convert a SerpApi results object to a plain JSON-serializable dict."""
+    try:
+        return results.as_dict()
+    except AttributeError:
         try:
-            results = client.search({
-                "engine": "google_flights",
-                "hl": "en",
-                "gl": "us",
-                "departure_id": "LNK",
-                "arrival_id": "SNA",
-                "outbound_date": search["outbound_date"],
-                "return_date": search["return_date"],
-                "currency": "USD",
-                "type": "1",
-                "adults": "1",
-                "stops": "2"
+            return dict(results)
+        except Exception:
+            return json.loads(str(results))
+
+
+def cheapest_option(results_data):
+    """Return the cheapest flight option dict from best_flights/other_flights, or None."""
+    options = (results_data.get("best_flights") or []) + (results_data.get("other_flights") or [])
+    if not options:
+        return None
+    return min(options, key=lambda f: f.get("price", float("inf")))
+
+
+def search_outbound(outbound_date, return_date):
+    results = client.search({
+        "engine": "google_flights",
+        "hl": "en",
+        "gl": "us",
+        "departure_id": DEPARTURE_ID,
+        "arrival_id": ARRIVAL_ID,
+        "outbound_date": outbound_date,
+        "return_date": return_date,
+        "currency": "USD",
+        "type": "1",
+        "adults": "1",
+        "stops": STOPS,
+    })
+    return to_plain_dict(results)
+
+
+def search_return(outbound_date, return_date, departure_token):
+    results = client.search({
+        "engine": "google_flights",
+        "hl": "en",
+        "gl": "us",
+        "departure_id": DEPARTURE_ID,
+        "arrival_id": ARRIVAL_ID,
+        "outbound_date": outbound_date,
+        "return_date": return_date,
+        "currency": "USD",
+        "type": "1",
+        "adults": "1",
+        "stops": STOPS,
+        "departure_token": departure_token,
+    })
+    return to_plain_dict(results)
+
+
+def slim_flight(option):
+    """Keep only what the front end needs from a flight option."""
+    if option is None:
+        return None
+    return {
+        "price": option.get("price"),
+        "total_duration": option.get("total_duration"),
+        "flights": option.get("flights", []),
+        "layovers": option.get("layovers", []),
+    }
+
+
+def run(test_mode):
+    start_date = date.today()
+    end_date = start_date + timedelta(days=183)
+
+    all_results = []
+    current = start_date
+    found_test_result = False
+
+    while current <= end_date and not (test_mode and found_test_result):
+
+        searches = []
+
+        if current.weekday() == 2:  # Wednesday
+            searches.append({
+                "trip_type": "Wednesday-Saturday",
+                "outbound_date": current.strftime("%Y-%m-%d"),
+                "return_date": (current + timedelta(days=3)).strftime("%Y-%m-%d"),
+            })
+        elif current.weekday() == 5:  # Saturday
+            searches.append({
+                "trip_type": "Saturday-Wednesday",
+                "outbound_date": current.strftime("%Y-%m-%d"),
+                "return_date": (current + timedelta(days=4)).strftime("%Y-%m-%d"),
             })
 
-            # Convert SerpAPI result to plain dict
+        for search in searches:
+            print(f"Searching {search['trip_type']} {search['outbound_date']} -> {search['return_date']}")
+
             try:
-                results_data = results.as_dict()
-            except AttributeError:
-                try:
-                    results_data = dict(results)
-                except Exception:
-                    results_data = json.loads(str(results))
+                outbound_data = search_outbound(search["outbound_date"], search["return_date"])
+                cheapest_out = cheapest_option(outbound_data)
 
-            all_results.append({
-                "trip_type": search["trip_type"],
-                "outbound_date": search["outbound_date"],
-                "return_date": search["return_date"],
-                "results": results_data
-            })
+                if cheapest_out is None or not cheapest_out.get("departure_token"):
+                    print("  No outbound flights / no departure_token found, skipping.")
+                    continue
 
-            print("  Success")
-            # Be nice to the API
-            time.sleep(2)
+                time.sleep(2)  # be nice to the API between the two calls
 
-        except Exception as e:
-            print(f"  Error: {e}")
+                return_data = search_return(
+                    search["outbound_date"], search["return_date"], cheapest_out["departure_token"]
+                )
+                cheapest_ret = cheapest_option(return_data)
 
-    # Corrected placement: Increment current date here
-    current += timedelta(days=1)
+                if cheapest_ret is None:
+                    print("  No return flights found for the selected outbound flight, skipping.")
+                    continue
 
-# Updated output filename to reflect SNA
-with open("lnk_sna_6months.json", "w", encoding="utf-8") as f:
-    json.dump(all_results, f, indent=2, ensure_ascii=False)
+                all_results.append({
+                    "trip_type": search["trip_type"],
+                    "outbound_date": search["outbound_date"],
+                    "return_date": search["return_date"],
+                    "price": cheapest_ret.get("price"),
+                    "outbound_flight": slim_flight(cheapest_out),
+                    "return_flight": slim_flight(cheapest_ret),
+                })
 
-print()
-print(f"Saved {len(all_results)} searches to lnk_sna_6months.json")
+                print(f"  Success (total price: ${cheapest_ret.get('price')})")
+
+                if test_mode:
+                    found_test_result = True
+                    break
+
+                time.sleep(2)
+
+            except Exception as e:
+                print(f"  Error: {e}")
+
+        current += timedelta(days=1)
+
+    out_file = TEST_OUTPUT_FILE if test_mode else OUTPUT_FILE
+    with open(out_file, "w", encoding="utf-8") as f:
+        json.dump(all_results, f, indent=2, ensure_ascii=False)
+
+    print()
+    print(f"Saved {len(all_results)} searches to {out_file}")
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Search LNK -> SNA flight prices.")
+    parser.add_argument(
+        "--test", action="store_true",
+        help="Only run one date pair, write to a separate test file, and stop.",
+    )
+    args = parser.parse_args()
+    run(test_mode=args.test)
