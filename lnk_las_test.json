@@ -1,0 +1,74 @@
+[
+  {
+    "trip_type": "Saturday-Wednesday",
+    "outbound_date": "2026-07-25",
+    "return_date": "2026-07-29",
+    "price": 353,
+    "outbound_flight": {
+      "price": 353,
+      "total_duration": 180,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2026-07-25 14:50"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2026-07-25 15:50"
+          },
+          "duration": 180,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 195 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    },
+    "return_flight": {
+      "price": 353,
+      "total_duration": 165,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2026-07-29 09:25"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2026-07-29 14:10"
+          },
+          "duration": 165,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 618",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 195 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    }
+  }
+]
