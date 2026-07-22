@@ -172,6 +172,17 @@
     font-weight:700;
     color:var(--navy);
   }
+  .details-content .leg-section-label{
+    font-weight:700;
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:0.5px;
+    color:#6a3fbf;
+    margin:10px 0 2px;
+  }
+  .details-content .leg-section-label:first-child{
+    margin-top:0;
+  }
   .breakdown{
     display:flex;
     gap:18px;
@@ -222,6 +233,7 @@
 <div class="page-header">
   <h1>Lincoln Flight Prices</h1>
   <p>Base fare, ranked cheapest to most expensive &mdash; adjust seat selection and baggage below</p>
+  <p style="font-size:0.8rem; color:#6a7ab5; margin-top:2px;">Data updates once a month, on the 1st.</p>
 </div>
 
 <div class="dest-tabs">
@@ -238,7 +250,7 @@
   <div class="control-group">
     <label for="bagCost">Baggage ($)</label>
     <input type="number" id="bagCost" value="70" min="0" step="1">
-    <small>Cheapest: LA=$80 LVS=$70</small>
+    <small>$70/$80 Carry On (Cheapest)</small>
   </div>
 </div>
 
@@ -291,6 +303,29 @@ async function loadFlights(url){
 
   const rows = [];
   raw.forEach(entry => {
+
+    // New format: entry has outbound_flight / return_flight / price
+    if(entry.outbound_flight || entry.return_flight){
+      const basePrice = entry.price != null
+        ? entry.price
+        : (entry.return_flight && entry.return_flight.price != null
+            ? entry.return_flight.price
+            : (entry.outbound_flight ? entry.outbound_flight.price : null));
+
+      if(basePrice == null) return;
+
+      rows.push({
+        outbound: entry.outbound_date,
+        returnDate: entry.return_date,
+        tripType: entry.trip_type,
+        basePrice,
+        outboundFlight: entry.outbound_flight || null,
+        returnFlight: entry.return_flight || null
+      });
+      return;
+    }
+
+    // Legacy format: entry has raw SerpApi "results" (outbound-only, no return leg)
     const r = entry.results || {};
     const flightOptions = r.best_flights || r.other_flights || [];
     let basePrice = null;
@@ -314,7 +349,8 @@ async function loadFlights(url){
       returnDate: entry.return_date,
       tripType: entry.trip_type,
       basePrice,
-      flightInfo
+      outboundFlight: flightInfo,
+      returnFlight: null
     });
   });
 
@@ -322,7 +358,7 @@ async function loadFlights(url){
   return rows;
 }
 
-function buildLegsHtml(flightInfo){
+function buildOneLegSetHtml(flightInfo){
   if(!flightInfo || !flightInfo.flights || !flightInfo.flights.length){
     return '<div class="leg">No flight leg details available.</div>';
   }
@@ -335,6 +371,19 @@ function buildLegsHtml(flightInfo){
       Duration: ${fmtDuration(leg.duration)}${leg.airplane ? ' &middot; ' + leg.airplane : ''}${leg.legroom ? ' &middot; Legroom: ' + leg.legroom : ''}
     </div>`;
   }).join('');
+}
+
+function buildLegsHtml(outboundFlight, returnFlight){
+  if(!returnFlight){
+    // Legacy data with only outbound info available
+    return buildOneLegSetHtml(outboundFlight);
+  }
+  return `
+    <div class="leg-section-label">Outbound</div>
+    ${buildOneLegSetHtml(outboundFlight)}
+    <div class="leg-section-label">Return</div>
+    ${buildOneLegSetHtml(returnFlight)}
+  `;
 }
 
 function render(key){
@@ -383,7 +432,7 @@ function render(key){
     <tr class="details-row" id="${rowId}" style="display:none;">
       <td colspan="9">
         <div class="details-content">
-          ${buildLegsHtml(row.flightInfo)}
+          ${buildLegsHtml(row.outboundFlight, row.returnFlight)}
           <div class="breakdown">
             <span>Base Fare: $${row.basePrice.toFixed(0)}</span>
             <span>Seat Selection: $${seatCost.toFixed(0)}</span>
@@ -410,6 +459,8 @@ function selectDest(dest){
   document.getElementById('card-sna').style.display = isLas ? 'none' : '';
   document.getElementById('tab-las').classList.toggle('active', isLas);
   document.getElementById('tab-sna').classList.toggle('active', !isLas);
+  document.getElementById('bagCost').value = isLas ? 70 : 80;
+  renderAll();
 }
 
 function renderAll(){
