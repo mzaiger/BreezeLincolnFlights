@@ -13,7 +13,7 @@ client = serpapi.Client(api_key=API_KEY)
 DEPARTURE_ID = "LNK"
 ARRIVAL_ID = "LAS"
 STOPS = "1"  # 1 = nonstop only... kept same value as original script (Google's "stops" filter code)
-OUTPUT_FILE = "lnk_las_4months.json"
+OUTPUT_FILE = "lnk_las_6months.json"
 TEST_OUTPUT_FILE = "lnk_las_test.json"
 
 
@@ -85,9 +85,11 @@ def slim_flight(option):
 
 def run(test_mode):
     start_date = date.today()
-    end_date = start_date + timedelta(days=122)  # ~4 months
+    end_date = start_date + timedelta(days=183)  # ~6 months
 
     all_results = []
+    errors = []
+    attempted = 0
     current = start_date
     found_test_result = False
 
@@ -109,6 +111,7 @@ def run(test_mode):
             })
 
         for search in searches:
+            attempted += 1
             print(f"Searching {search['trip_type']} {search['outbound_date']} -> {search['return_date']}")
 
             try:
@@ -116,7 +119,9 @@ def run(test_mode):
                 cheapest_out = cheapest_option(outbound_data)
 
                 if cheapest_out is None or not cheapest_out.get("departure_token"):
-                    print("  No outbound flights / no departure_token found, skipping.")
+                    msg = f"{search['outbound_date']}: no outbound flights / no departure_token found"
+                    print(f"  {msg}, skipping.")
+                    errors.append(msg)
                     continue
 
                 time.sleep(2)  # be nice to the API between the two calls
@@ -127,7 +132,9 @@ def run(test_mode):
                 cheapest_ret = cheapest_option(return_data)
 
                 if cheapest_ret is None:
-                    print("  No return flights found for the selected outbound flight, skipping.")
+                    msg = f"{search['outbound_date']}: no return flights found for the selected outbound flight"
+                    print(f"  {msg}, skipping.")
+                    errors.append(msg)
                     continue
 
                 all_results.append({
@@ -148,20 +155,48 @@ def run(test_mode):
                 time.sleep(2)
 
             except Exception as e:
+                msg = f"{search['outbound_date']}: {e}"
                 print(f"  Error: {e}")
+                errors.append(msg)
 
         current += timedelta(days=1)
 
-    out_file = TEST_OUTPUT_FILE if test_mode else OUTPUT_FILE
-    with open(out_file, "w", encoding="utf-8") as f:
+    print()
+    print(f"Attempted {attempted} searches, got {len(all_results)} successful results, {len(errors)} failed.")
+    if errors:
+        print()
+        print("--- Failures ---")
+        for msg in errors[:20]:
+            print(f"  - {msg}")
+        if len(errors) > 20:
+            print(f"  ...and {len(errors) - 20} more")
+
+    if test_mode:
+        with open(TEST_OUTPUT_FILE, "w", encoding="utf-8") as f:
+            json.dump(all_results, f, indent=2, ensure_ascii=False)
+        print()
+        print(f"Saved {len(all_results)} searches to {TEST_OUTPUT_FILE}")
+        return
+
+    # Safety guard: don't overwrite good existing data with a mostly-failed run.
+    # A full 6-month run should produce roughly (attempted - a handful) results.
+    min_expected = max(1, int(attempted * 0.7))
+    if len(all_results) < min_expected:
+        print()
+        print(f"::error::Only {len(all_results)}/{attempted} searches succeeded (expected at least "
+              f"{min_expected}). NOT overwriting {OUTPUT_FILE} to avoid destroying good existing data. "
+              f"Check your SerpApi account for quota/rate-limit issues.")
+        sys.exit(1)
+
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(all_results, f, indent=2, ensure_ascii=False)
 
     print()
-    print(f"Saved {len(all_results)} searches to {out_file}")
+    print(f"Saved {len(all_results)} searches to {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Search LNK -> LAS flight prices (4 months out).")
+    parser = argparse.ArgumentParser(description="Search LNK -> LAS flight prices (6 months out).")
     parser.add_argument(
         "--test", action="store_true",
         help="Only run one date pair, write to a separate test file, and stop.",
