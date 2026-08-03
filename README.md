@@ -16,6 +16,16 @@ Ana (SNA).
   adjustable cost calculators for seat selection, baggage fees, and promo
   codes layered on top of the base fare
 
+## GitHub secrets required
+
+`.github/workflows/Bi-Monthly Flight Tracker.yaml` runs on the 1st of
+each month and needs this added under repo → Settings → Secrets and
+variables → Actions:
+
+| Secret | Used for |
+|---|---|
+| `SERPAPI_KEY` | Google Flights data via SerpApi, used by both `VegasFlights.py` and `LAFlights.py` |
+
 ## Setup
 
 Requires a SerpApi key:
