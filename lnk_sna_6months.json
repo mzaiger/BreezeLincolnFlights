@@ -1,1511 +1,11 @@
 [
   {
-    "trip_type": "Saturday-Wednesday",
-    "outbound_date": "2026-07-25",
-    "return_date": "2026-07-29",
-    "price": 472,
-    "outbound_flight": {
-      "price": 472,
-      "total_duration": 295,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-07-25 14:50"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-07-25 15:50"
-          },
-          "duration": 180,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 195 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-07-25 16:30"
-          },
-          "arrival_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-07-25 17:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 65 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    },
-    "return_flight": {
-      "price": 472,
-      "total_duration": 280,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-07-29 07:30"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-07-29 08:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 69 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-07-29 09:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-07-29 14:10"
-          },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 195 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    }
-  },
-  {
-    "trip_type": "Wednesday-Saturday",
-    "outbound_date": "2026-07-29",
-    "return_date": "2026-08-01",
-    "price": 479,
-    "outbound_flight": {
-      "price": 479,
-      "total_duration": 297,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-07-29 06:10"
-          },
-          "arrival_airport": {
-            "name": "Denver International Airport",
-            "id": "DEN",
-            "time": "2026-07-29 06:55"
-          },
-          "duration": 105,
-          "airplane": "Bombardier Regional Jet 550",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 5866",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Free Wi-Fi",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 146 kg"
-          ],
-          "plane_and_crew_by": "SkyWest DBA United Express"
-        },
-        {
-          "departure_airport": {
-            "name": "Denver International Airport",
-            "id": "DEN",
-            "time": "2026-07-29 07:40"
-          },
-          "arrival_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-07-29 09:07"
-          },
-          "duration": 147,
-          "airplane": "Airbus A321neo",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 2666",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 99 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 45,
-          "name": "Denver International Airport",
-          "id": "DEN"
-        }
-      ]
-    },
-    "return_flight": {
-      "price": 479,
-      "total_duration": 298,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-08-01 16:00"
-          },
-          "arrival_airport": {
-            "name": "Denver International Airport",
-            "id": "DEN",
-            "time": "2026-08-01 19:20"
-          },
-          "duration": 140,
-          "airplane": "Boeing 737MAX 8 Passenger",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 2649",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "On-demand video",
-            "Carbon emissions estimate: 111 kg"
-          ],
-          "often_delayed_by_over_30_min": true
-        },
-        {
-          "departure_airport": {
-            "name": "Denver International Airport",
-            "id": "DEN",
-            "time": "2026-08-01 20:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-08-01 22:58"
-          },
-          "duration": 93,
-          "airplane": "Bombardier Regional Jet 550",
-          "airline": "United",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
-          "travel_class": "Economy",
-          "flight_number": "UA 5824",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Free Wi-Fi",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 157 kg"
-          ],
-          "often_delayed_by_over_30_min": true,
-          "plane_and_crew_by": "SkyWest DBA United Express"
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 65,
-          "name": "Denver International Airport",
-          "id": "DEN"
-        }
-      ]
-    }
-  },
-  {
-    "trip_type": "Saturday-Wednesday",
-    "outbound_date": "2026-08-01",
-    "return_date": "2026-08-05",
-    "price": 303,
-    "outbound_flight": {
-      "price": 303,
-      "total_duration": 295,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-08-01 14:50"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-01 15:50"
-          },
-          "duration": 180,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 199 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-01 16:30"
-          },
-          "arrival_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-08-01 17:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 67 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    },
-    "return_flight": {
-      "price": 303,
-      "total_duration": 280,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-08-05 07:30"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-05 08:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 71 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-05 09:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-08-05 14:10"
-          },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 199 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    }
-  },
-  {
-    "trip_type": "Wednesday-Saturday",
-    "outbound_date": "2026-08-05",
-    "return_date": "2026-08-08",
-    "price": 234,
-    "outbound_flight": {
-      "price": 234,
-      "total_duration": 295,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-08-05 14:50"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-05 15:50"
-          },
-          "duration": 180,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 199 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-05 16:30"
-          },
-          "arrival_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-08-05 17:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 67 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    },
-    "return_flight": {
-      "price": 234,
-      "total_duration": 280,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-08-08 07:30"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-08 08:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 71 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-08 09:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-08-08 14:10"
-          },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 199 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    }
-  },
-  {
-    "trip_type": "Saturday-Wednesday",
-    "outbound_date": "2026-08-08",
-    "return_date": "2026-08-12",
-    "price": 177,
-    "outbound_flight": {
-      "price": 177,
-      "total_duration": 295,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-08-08 14:50"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-08 15:50"
-          },
-          "duration": 180,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 199 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-08 16:30"
-          },
-          "arrival_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-08-08 17:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 67 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    },
-    "return_flight": {
-      "price": 177,
-      "total_duration": 280,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-08-12 07:30"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-12 08:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 71 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-12 09:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-08-12 14:10"
-          },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 199 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    }
-  },
-  {
-    "trip_type": "Wednesday-Saturday",
-    "outbound_date": "2026-08-12",
-    "return_date": "2026-08-15",
-    "price": 214,
-    "outbound_flight": {
-      "price": 214,
-      "total_duration": 295,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-08-12 14:50"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-12 15:50"
-          },
-          "duration": 180,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 199 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-12 16:30"
-          },
-          "arrival_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-08-12 17:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 67 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    },
-    "return_flight": {
-      "price": 214,
-      "total_duration": 280,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-08-15 07:30"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-15 08:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 71 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-15 09:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-08-15 14:10"
-          },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 199 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    }
-  },
-  {
-    "trip_type": "Saturday-Wednesday",
-    "outbound_date": "2026-08-15",
-    "return_date": "2026-08-19",
-    "price": 220,
-    "outbound_flight": {
-      "price": 220,
-      "total_duration": 295,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-08-15 14:50"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-15 15:50"
-          },
-          "duration": 180,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 199 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-15 16:30"
-          },
-          "arrival_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-08-15 17:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 67 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    },
-    "return_flight": {
-      "price": 220,
-      "total_duration": 280,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-08-19 07:30"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-19 08:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 71 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-19 09:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-08-19 14:10"
-          },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 199 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    }
-  },
-  {
-    "trip_type": "Wednesday-Saturday",
-    "outbound_date": "2026-08-19",
-    "return_date": "2026-08-22",
-    "price": 219,
-    "outbound_flight": {
-      "price": 219,
-      "total_duration": 295,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-08-19 14:50"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-19 15:50"
-          },
-          "duration": 180,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 199 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-19 16:30"
-          },
-          "arrival_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-08-19 17:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 67 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    },
-    "return_flight": {
-      "price": 219,
-      "total_duration": 280,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-08-22 07:30"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-22 08:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 71 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-22 09:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-08-22 14:10"
-          },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 199 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    }
-  },
-  {
-    "trip_type": "Saturday-Wednesday",
-    "outbound_date": "2026-08-22",
-    "return_date": "2026-08-26",
-    "price": 194,
-    "outbound_flight": {
-      "price": 194,
-      "total_duration": 295,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-08-22 14:50"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-22 15:50"
-          },
-          "duration": 180,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 199 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-22 16:30"
-          },
-          "arrival_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-08-22 17:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 67 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    },
-    "return_flight": {
-      "price": 194,
-      "total_duration": 280,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-08-26 07:30"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-26 08:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 71 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-26 09:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-08-26 14:10"
-          },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 199 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    }
-  },
-  {
-    "trip_type": "Wednesday-Saturday",
-    "outbound_date": "2026-08-26",
-    "return_date": "2026-08-29",
-    "price": 178,
-    "outbound_flight": {
-      "price": 178,
-      "total_duration": 295,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-08-26 14:50"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-26 15:50"
-          },
-          "duration": 180,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 199 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-26 16:30"
-          },
-          "arrival_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-08-26 17:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 67 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    },
-    "return_flight": {
-      "price": 178,
-      "total_duration": 280,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-08-29 07:30"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-29 08:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 71 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-29 09:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-08-29 14:10"
-          },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 199 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    }
-  },
-  {
-    "trip_type": "Saturday-Wednesday",
-    "outbound_date": "2026-08-29",
-    "return_date": "2026-09-02",
-    "price": 268,
-    "outbound_flight": {
-      "price": 268,
-      "total_duration": 295,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-08-29 14:50"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-29 15:50"
-          },
-          "duration": 180,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 199 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-08-29 16:30"
-          },
-          "arrival_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-08-29 17:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 67 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    },
-    "return_flight": {
-      "price": 268,
-      "total_duration": 280,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-09-02 07:30"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-09-02 08:45"
-          },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 73 kg"
-          ]
-        },
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-09-02 09:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-09-02 14:10"
-          },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 618",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 205 kg"
-          ]
-        }
-      ],
-      "layovers": [
-        {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
-        }
-      ]
-    }
-  },
-  {
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-09-02",
     "return_date": "2026-09-05",
-    "price": 164,
+    "price": 455,
     "outbound_flight": {
-      "price": 164,
+      "price": 457,
       "total_duration": 295,
       "flights": [
         {
@@ -1570,7 +70,7 @@
       ]
     },
     "return_flight": {
-      "price": 164,
+      "price": 455,
       "total_duration": 280,
       "flights": [
         {
@@ -1639,9 +139,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-09-05",
     "return_date": "2026-09-09",
-    "price": 164,
+    "price": 291,
     "outbound_flight": {
-      "price": 164,
+      "price": 295,
       "total_duration": 295,
       "flights": [
         {
@@ -1706,7 +206,7 @@
       ]
     },
     "return_flight": {
-      "price": 164,
+      "price": 291,
       "total_duration": 280,
       "flights": [
         {
@@ -1775,9 +275,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-09-09",
     "return_date": "2026-09-12",
-    "price": 178,
+    "price": 271,
     "outbound_flight": {
-      "price": 178,
+      "price": 271,
       "total_duration": 290,
       "flights": [
         {
@@ -1842,7 +342,7 @@
       ]
     },
     "return_flight": {
-      "price": 178,
+      "price": 271,
       "total_duration": 280,
       "flights": [
         {
@@ -1911,9 +411,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-09-12",
     "return_date": "2026-09-16",
-    "price": 191,
+    "price": 140,
     "outbound_flight": {
-      "price": 191,
+      "price": 140,
       "total_duration": 290,
       "flights": [
         {
@@ -1978,7 +478,7 @@
       ]
     },
     "return_flight": {
-      "price": 191,
+      "price": 140,
       "total_duration": 280,
       "flights": [
         {
@@ -2047,9 +547,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-09-16",
     "return_date": "2026-09-19",
-    "price": 181,
+    "price": 153,
     "outbound_flight": {
-      "price": 181,
+      "price": 153,
       "total_duration": 290,
       "flights": [
         {
@@ -2114,7 +614,7 @@
       ]
     },
     "return_flight": {
-      "price": 181,
+      "price": 153,
       "total_duration": 280,
       "flights": [
         {
@@ -2183,9 +683,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-09-19",
     "return_date": "2026-09-23",
-    "price": 184,
+    "price": 153,
     "outbound_flight": {
-      "price": 184,
+      "price": 153,
       "total_duration": 290,
       "flights": [
         {
@@ -2250,7 +750,7 @@
       ]
     },
     "return_flight": {
-      "price": 184,
+      "price": 153,
       "total_duration": 280,
       "flights": [
         {
@@ -2319,9 +819,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-09-23",
     "return_date": "2026-09-26",
-    "price": 203,
+    "price": 176,
     "outbound_flight": {
-      "price": 203,
+      "price": 176,
       "total_duration": 290,
       "flights": [
         {
@@ -2386,7 +886,7 @@
       ]
     },
     "return_flight": {
-      "price": 203,
+      "price": 176,
       "total_duration": 280,
       "flights": [
         {
@@ -2455,9 +955,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-09-26",
     "return_date": "2026-09-30",
-    "price": 258,
+    "price": 195,
     "outbound_flight": {
-      "price": 258,
+      "price": 195,
       "total_duration": 290,
       "flights": [
         {
@@ -2522,7 +1022,7 @@
       ]
     },
     "return_flight": {
-      "price": 258,
+      "price": 195,
       "total_duration": 280,
       "flights": [
         {
@@ -2591,9 +1091,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-09-30",
     "return_date": "2026-10-03",
-    "price": 201,
+    "price": 181,
     "outbound_flight": {
-      "price": 201,
+      "price": 181,
       "total_duration": 290,
       "flights": [
         {
@@ -2658,7 +1158,7 @@
       ]
     },
     "return_flight": {
-      "price": 201,
+      "price": 181,
       "total_duration": 280,
       "flights": [
         {
@@ -2727,9 +1227,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-10-03",
     "return_date": "2026-10-07",
-    "price": 284,
+    "price": 197,
     "outbound_flight": {
-      "price": 288,
+      "price": 197,
       "total_duration": 290,
       "flights": [
         {
@@ -2794,7 +1294,7 @@
       ]
     },
     "return_flight": {
-      "price": 284,
+      "price": 197,
       "total_duration": 280,
       "flights": [
         {
@@ -2863,9 +1363,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-10-07",
     "return_date": "2026-10-10",
-    "price": 209,
+    "price": 207,
     "outbound_flight": {
-      "price": 209,
+      "price": 207,
       "total_duration": 290,
       "flights": [
         {
@@ -2930,7 +1430,7 @@
       ]
     },
     "return_flight": {
-      "price": 209,
+      "price": 207,
       "total_duration": 280,
       "flights": [
         {
@@ -2999,9 +1499,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-10-10",
     "return_date": "2026-10-14",
-    "price": 284,
+    "price": 202,
     "outbound_flight": {
-      "price": 278,
+      "price": 202,
       "total_duration": 290,
       "flights": [
         {
@@ -3066,7 +1566,7 @@
       ]
     },
     "return_flight": {
-      "price": 284,
+      "price": 202,
       "total_duration": 280,
       "flights": [
         {
@@ -3135,9 +1635,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-10-14",
     "return_date": "2026-10-17",
-    "price": 373,
+    "price": 388,
     "outbound_flight": {
-      "price": 373,
+      "price": 388,
       "total_duration": 290,
       "flights": [
         {
@@ -3202,7 +1702,7 @@
       ]
     },
     "return_flight": {
-      "price": 373,
+      "price": 388,
       "total_duration": 280,
       "flights": [
         {
@@ -3271,9 +1771,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-10-17",
     "return_date": "2026-10-21",
-    "price": 346,
+    "price": 256,
     "outbound_flight": {
-      "price": 346,
+      "price": 256,
       "total_duration": 290,
       "flights": [
         {
@@ -3338,7 +1838,7 @@
       ]
     },
     "return_flight": {
-      "price": 346,
+      "price": 256,
       "total_duration": 280,
       "flights": [
         {
@@ -3407,9 +1907,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-10-21",
     "return_date": "2026-10-24",
-    "price": 368,
+    "price": 299,
     "outbound_flight": {
-      "price": 368,
+      "price": 299,
       "total_duration": 290,
       "flights": [
         {
@@ -3474,7 +1974,7 @@
       ]
     },
     "return_flight": {
-      "price": 368,
+      "price": 299,
       "total_duration": 280,
       "flights": [
         {
@@ -3543,9 +2043,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-10-24",
     "return_date": "2026-10-28",
-    "price": 207,
+    "price": 185,
     "outbound_flight": {
-      "price": 203,
+      "price": 185,
       "total_duration": 290,
       "flights": [
         {
@@ -3610,7 +2110,7 @@
       ]
     },
     "return_flight": {
-      "price": 207,
+      "price": 185,
       "total_duration": 280,
       "flights": [
         {
@@ -3679,9 +2179,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-10-28",
     "return_date": "2026-10-31",
-    "price": 225,
+    "price": 235,
     "outbound_flight": {
-      "price": 229,
+      "price": 235,
       "total_duration": 290,
       "flights": [
         {
@@ -3746,7 +2246,7 @@
       ]
     },
     "return_flight": {
-      "price": 225,
+      "price": 235,
       "total_duration": 280,
       "flights": [
         {
@@ -3815,9 +2315,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-10-31",
     "return_date": "2026-11-04",
-    "price": 216,
+    "price": 187,
     "outbound_flight": {
-      "price": 216,
+      "price": 187,
       "total_duration": 290,
       "flights": [
         {
@@ -3882,7 +2382,7 @@
       ]
     },
     "return_flight": {
-      "price": 216,
+      "price": 187,
       "total_duration": 280,
       "flights": [
         {
@@ -3951,136 +2451,137 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-11-04",
     "return_date": "2026-11-07",
-    "price": 374,
+    "price": 339,
     "outbound_flight": {
-      "price": 374,
-      "total_duration": 372,
+      "price": 339,
+      "total_duration": 463,
       "flights": [
         {
           "departure_airport": {
             "name": "Lincoln Airport",
             "id": "LNK",
-            "time": "2026-11-04 14:58"
+            "time": "2026-11-04 11:50"
           },
           "arrival_airport": {
-            "name": "Dallas Fort Worth International Airport",
-            "id": "DFW",
-            "time": "2026-11-04 17:01"
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2026-11-04 12:41"
           },
-          "duration": 123,
-          "airplane": "Canadair RJ 700",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "duration": 111,
+          "airplane": "Bombardier Regional Jet 550",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "AA 6314",
-          "legroom": "31 in",
-          "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
-            "Stream media to your device",
-            "Carbon emissions estimate: 154 kg"
-          ],
-          "plane_and_crew_by": "SkyWest Airlines as American Eagle"
-        },
-        {
-          "departure_airport": {
-            "name": "Dallas Fort Worth International Airport",
-            "id": "DFW",
-            "time": "2026-11-04 17:51"
-          },
-          "arrival_airport": {
-            "name": "John Wayne Airport",
-            "id": "SNA",
-            "time": "2026-11-04 19:10"
-          },
-          "duration": 199,
-          "airplane": "Boeing 737MAX 8 Passenger",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
-          "travel_class": "Economy",
-          "flight_number": "AA 1112",
+          "flight_number": "UA 5825",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
             "Free Wi-Fi",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 164 kg"
+          ],
+          "plane_and_crew_by": "SkyWest DBA United Express"
+        },
+        {
+          "departure_airport": {
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2026-11-04 15:58"
+          },
+          "arrival_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2026-11-04 17:33"
+          },
+          "duration": 155,
+          "airplane": "Airbus A320",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+          "travel_class": "Economy",
+          "flight_number": "UA 1129",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
             "In-seat power & USB outlets",
             "Stream media to your device",
-            "Carbon emissions estimate: 142 kg"
+            "Carbon emissions estimate: 134 kg"
           ]
         }
       ],
       "layovers": [
         {
-          "duration": 50,
-          "name": "Dallas Fort Worth International Airport",
-          "id": "DFW"
+          "duration": 197,
+          "name": "Denver International Airport",
+          "id": "DEN"
         }
       ]
     },
     "return_flight": {
-      "price": 374,
-      "total_duration": 367,
+      "price": 339,
+      "total_duration": 308,
       "flights": [
         {
           "departure_airport": {
             "name": "John Wayne Airport",
             "id": "SNA",
-            "time": "2026-11-07 14:53"
+            "time": "2026-11-07 16:05"
           },
           "arrival_airport": {
-            "name": "Dallas Fort Worth International Airport",
-            "id": "DFW",
-            "time": "2026-11-07 20:07"
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2026-11-07 19:26"
           },
-          "duration": 194,
+          "duration": 141,
           "airplane": "Boeing 737MAX 8 Passenger",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "AA 2861",
+          "flight_number": "UA 1048",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
-            "Free Wi-Fi",
+            "Wi-Fi for a fee",
             "In-seat power & USB outlets",
-            "Stream media to your device",
-            "Carbon emissions estimate: 146 kg"
+            "On-demand video",
+            "Carbon emissions estimate: 113 kg"
           ]
         },
         {
           "departure_airport": {
-            "name": "Dallas Fort Worth International Airport",
-            "id": "DFW",
-            "time": "2026-11-07 21:01"
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2026-11-07 20:45"
           },
           "arrival_airport": {
             "name": "Lincoln Airport",
             "id": "LNK",
-            "time": "2026-11-07 23:00"
+            "time": "2026-11-07 23:13"
           },
-          "duration": 119,
-          "airplane": "Canadair RJ 700",
-          "airline": "American",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
+          "duration": 88,
+          "airplane": "Bombardier Regional Jet 550",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "AA 6452",
-          "legroom": "31 in",
+          "flight_number": "UA 5824",
+          "legroom": "30 in",
           "extensions": [
-            "Average legroom (31 in)",
-            "Wi-Fi for a fee",
-            "In-seat power & USB outlets",
+            "Average legroom (30 in)",
+            "Free Wi-Fi",
+            "In-seat USB outlet",
             "Stream media to your device",
-            "Carbon emissions estimate: 154 kg"
+            "Carbon emissions estimate: 160 kg"
           ],
-          "plane_and_crew_by": "SkyWest Airlines as American Eagle"
+          "often_delayed_by_over_30_min": true,
+          "plane_and_crew_by": "SkyWest DBA United Express"
         }
       ],
       "layovers": [
         {
-          "duration": 54,
-          "name": "Dallas Fort Worth International Airport",
-          "id": "DFW"
+          "duration": 79,
+          "name": "Denver International Airport",
+          "id": "DEN"
         }
       ]
     }
@@ -4089,9 +2590,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-11-07",
     "return_date": "2026-11-11",
-    "price": 218,
+    "price": 212,
     "outbound_flight": {
-      "price": 218,
+      "price": 212,
       "total_duration": 290,
       "flights": [
         {
@@ -4156,7 +2657,7 @@
       ]
     },
     "return_flight": {
-      "price": 218,
+      "price": 212,
       "total_duration": 280,
       "flights": [
         {
@@ -4225,9 +2726,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-11-11",
     "return_date": "2026-11-14",
-    "price": 195,
+    "price": 302,
     "outbound_flight": {
-      "price": 195,
+      "price": 302,
       "total_duration": 290,
       "flights": [
         {
@@ -4292,7 +2793,7 @@
       ]
     },
     "return_flight": {
-      "price": 195,
+      "price": 302,
       "total_duration": 280,
       "flights": [
         {
@@ -4361,9 +2862,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-11-14",
     "return_date": "2026-11-18",
-    "price": 247,
+    "price": 249,
     "outbound_flight": {
-      "price": 247,
+      "price": 249,
       "total_duration": 290,
       "flights": [
         {
@@ -4428,7 +2929,7 @@
       ]
     },
     "return_flight": {
-      "price": 247,
+      "price": 249,
       "total_duration": 280,
       "flights": [
         {
@@ -4497,9 +2998,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-11-18",
     "return_date": "2026-11-21",
-    "price": 238,
+    "price": 274,
     "outbound_flight": {
-      "price": 238,
+      "price": 274,
       "total_duration": 290,
       "flights": [
         {
@@ -4564,7 +3065,7 @@
       ]
     },
     "return_flight": {
-      "price": 238,
+      "price": 274,
       "total_duration": 280,
       "flights": [
         {
@@ -4633,134 +3134,137 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-11-21",
     "return_date": "2026-11-25",
-    "price": 379,
+    "price": 374,
     "outbound_flight": {
-      "price": 388,
-      "total_duration": 290,
+      "price": 374,
+      "total_duration": 374,
       "flights": [
         {
           "departure_airport": {
             "name": "Lincoln Airport",
             "id": "LNK",
-            "time": "2026-11-21 14:50"
+            "time": "2026-11-21 13:19"
           },
           "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-11-21 15:45"
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2026-11-21 14:10"
           },
-          "duration": 175,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 111,
+          "airplane": "Bombardier Regional Jet 550",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 619",
+          "flight_number": "UA 5649",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
-            "Wi-Fi for a fee",
+            "Free Wi-Fi",
             "In-seat USB outlet",
             "Stream media to your device",
-            "Carbon emissions estimate: 202 kg"
-          ]
+            "Carbon emissions estimate: 164 kg"
+          ],
+          "plane_and_crew_by": "SkyWest DBA United Express"
         },
         {
           "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-11-21 16:25"
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2026-11-21 15:58"
           },
           "arrival_airport": {
             "name": "John Wayne Airport",
             "id": "SNA",
-            "time": "2026-11-21 17:40"
+            "time": "2026-11-21 17:33"
           },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 155,
+          "airplane": "Airbus A320",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 619",
+          "flight_number": "UA 1129",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
             "Wi-Fi for a fee",
-            "In-seat USB outlet",
+            "In-seat power & USB outlets",
             "Stream media to your device",
-            "Carbon emissions estimate: 67 kg"
+            "Carbon emissions estimate: 134 kg"
           ]
         }
       ],
       "layovers": [
         {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
+          "duration": 108,
+          "name": "Denver International Airport",
+          "id": "DEN"
         }
       ]
     },
     "return_flight": {
-      "price": 379,
-      "total_duration": 280,
+      "price": 374,
+      "total_duration": 308,
       "flights": [
         {
           "departure_airport": {
             "name": "John Wayne Airport",
             "id": "SNA",
-            "time": "2026-11-25 07:30"
+            "time": "2026-11-25 16:05"
           },
           "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-11-25 08:45"
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2026-11-25 19:26"
           },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 141,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 466",
+          "flight_number": "UA 1048",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
             "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 72 kg"
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 113 kg"
           ]
         },
         {
           "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-11-25 09:25"
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2026-11-25 20:45"
           },
           "arrival_airport": {
             "name": "Lincoln Airport",
             "id": "LNK",
-            "time": "2026-11-25 14:10"
+            "time": "2026-11-25 23:13"
           },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 88,
+          "airplane": "Bombardier Regional Jet 550",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 466",
+          "flight_number": "UA 5824",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
-            "Wi-Fi for a fee",
+            "Free Wi-Fi",
             "In-seat USB outlet",
             "Stream media to your device",
-            "Carbon emissions estimate: 202 kg"
-          ]
+            "Carbon emissions estimate: 160 kg"
+          ],
+          "often_delayed_by_over_30_min": true,
+          "plane_and_crew_by": "SkyWest DBA United Express"
         }
       ],
       "layovers": [
         {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
+          "duration": 79,
+          "name": "Denver International Airport",
+          "id": "DEN"
         }
       ]
     }
@@ -4769,9 +3273,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-11-25",
     "return_date": "2026-11-28",
-    "price": 651,
+    "price": 581,
     "outbound_flight": {
-      "price": 651,
+      "price": 581,
       "total_duration": 290,
       "flights": [
         {
@@ -4836,7 +3340,7 @@
       ]
     },
     "return_flight": {
-      "price": 651,
+      "price": 581,
       "total_duration": 280,
       "flights": [
         {
@@ -4905,9 +3409,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-11-28",
     "return_date": "2026-12-02",
-    "price": 319,
+    "price": 328,
     "outbound_flight": {
-      "price": 319,
+      "price": 328,
       "total_duration": 290,
       "flights": [
         {
@@ -4972,7 +3476,7 @@
       ]
     },
     "return_flight": {
-      "price": 319,
+      "price": 328,
       "total_duration": 280,
       "flights": [
         {
@@ -5041,134 +3545,136 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-12-02",
     "return_date": "2026-12-05",
-    "price": 366,
+    "price": 339,
     "outbound_flight": {
-      "price": 366,
-      "total_duration": 290,
+      "price": 339,
+      "total_duration": 315,
       "flights": [
         {
           "departure_airport": {
             "name": "Lincoln Airport",
             "id": "LNK",
-            "time": "2026-12-02 14:50"
+            "time": "2026-12-02 06:00"
           },
           "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-12-02 15:45"
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2026-12-02 06:46"
           },
-          "duration": 175,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 106,
+          "airplane": "Bombardier Regional Jet 550",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 619",
+          "flight_number": "UA 5866",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
-            "Wi-Fi for a fee",
+            "Free Wi-Fi",
             "In-seat USB outlet",
             "Stream media to your device",
-            "Carbon emissions estimate: 203 kg"
-          ]
+            "Carbon emissions estimate: 167 kg"
+          ],
+          "plane_and_crew_by": "SkyWest DBA United Express"
         },
         {
           "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-12-02 16:25"
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2026-12-02 07:50"
           },
           "arrival_airport": {
             "name": "John Wayne Airport",
             "id": "SNA",
-            "time": "2026-12-02 17:40"
+            "time": "2026-12-02 09:15"
           },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 145,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 619",
+          "flight_number": "UA 2666",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
             "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 68 kg"
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 108 kg"
           ]
         }
       ],
       "layovers": [
         {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
+          "duration": 64,
+          "name": "Denver International Airport",
+          "id": "DEN"
         }
       ]
     },
     "return_flight": {
-      "price": 366,
-      "total_duration": 280,
+      "price": 339,
+      "total_duration": 332,
       "flights": [
         {
           "departure_airport": {
             "name": "John Wayne Airport",
             "id": "SNA",
-            "time": "2026-12-05 07:30"
+            "time": "2026-12-05 08:55"
           },
           "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-12-05 08:45"
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2026-12-05 12:16"
           },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 141,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 466",
+          "flight_number": "UA 489",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
             "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 73 kg"
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 115 kg"
           ]
         },
         {
           "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-12-05 09:25"
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2026-12-05 14:00"
           },
           "arrival_airport": {
             "name": "Lincoln Airport",
             "id": "LNK",
-            "time": "2026-12-05 14:10"
+            "time": "2026-12-05 16:27"
           },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 87,
+          "airplane": "Bombardier Regional Jet 550",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 466",
+          "flight_number": "UA 4761",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
-            "Wi-Fi for a fee",
+            "Free Wi-Fi",
             "In-seat USB outlet",
             "Stream media to your device",
-            "Carbon emissions estimate: 203 kg"
-          ]
+            "Carbon emissions estimate: 163 kg"
+          ],
+          "plane_and_crew_by": "SkyWest DBA United Express"
         }
       ],
       "layovers": [
         {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
+          "duration": 104,
+          "name": "Denver International Airport",
+          "id": "DEN"
         }
       ]
     }
@@ -5177,9 +3683,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-12-05",
     "return_date": "2026-12-09",
-    "price": 202,
+    "price": 290,
     "outbound_flight": {
-      "price": 202,
+      "price": 290,
       "total_duration": 290,
       "flights": [
         {
@@ -5244,7 +3750,7 @@
       ]
     },
     "return_flight": {
-      "price": 202,
+      "price": 290,
       "total_duration": 280,
       "flights": [
         {
@@ -5313,134 +3819,137 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-12-09",
     "return_date": "2026-12-12",
-    "price": 290,
+    "price": 339,
     "outbound_flight": {
-      "price": 290,
-      "total_duration": 290,
+      "price": 339,
+      "total_duration": 315,
       "flights": [
         {
           "departure_airport": {
             "name": "Lincoln Airport",
             "id": "LNK",
-            "time": "2026-12-09 14:50"
+            "time": "2026-12-09 06:00"
           },
           "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-12-09 15:45"
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2026-12-09 06:46"
           },
-          "duration": 175,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 106,
+          "airplane": "Bombardier Regional Jet 550",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 619",
+          "flight_number": "UA 5866",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
-            "Wi-Fi for a fee",
+            "Free Wi-Fi",
             "In-seat USB outlet",
             "Stream media to your device",
-            "Carbon emissions estimate: 203 kg"
-          ]
+            "Carbon emissions estimate: 167 kg"
+          ],
+          "plane_and_crew_by": "SkyWest DBA United Express"
         },
         {
           "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-12-09 16:25"
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2026-12-09 07:50"
           },
           "arrival_airport": {
             "name": "John Wayne Airport",
             "id": "SNA",
-            "time": "2026-12-09 17:40"
+            "time": "2026-12-09 09:15"
           },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 145,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 619",
+          "flight_number": "UA 2666",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
             "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 68 kg"
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 108 kg"
           ]
         }
       ],
       "layovers": [
         {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
+          "duration": 64,
+          "name": "Denver International Airport",
+          "id": "DEN"
         }
       ]
     },
     "return_flight": {
-      "price": 290,
-      "total_duration": 280,
+      "price": 339,
+      "total_duration": 383,
       "flights": [
         {
           "departure_airport": {
             "name": "John Wayne Airport",
             "id": "SNA",
-            "time": "2026-12-12 07:30"
+            "time": "2026-12-12 11:30"
           },
           "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-12-12 08:45"
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2026-12-12 14:40"
           },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 130,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 466",
+          "flight_number": "UA 2843",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
             "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 73 kg"
+            "In-seat power & USB outlets",
+            "On-demand video",
+            "Carbon emissions estimate: 115 kg"
           ]
         },
         {
           "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-12-12 09:25"
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2026-12-12 17:25"
           },
           "arrival_airport": {
             "name": "Lincoln Airport",
             "id": "LNK",
-            "time": "2026-12-12 14:10"
+            "time": "2026-12-12 19:53"
           },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 88,
+          "airplane": "Bombardier Regional Jet 550",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 466",
+          "flight_number": "UA 5622",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
-            "Wi-Fi for a fee",
+            "Free Wi-Fi",
             "In-seat USB outlet",
             "Stream media to your device",
-            "Carbon emissions estimate: 203 kg"
-          ]
+            "Carbon emissions estimate: 163 kg"
+          ],
+          "often_delayed_by_over_30_min": true,
+          "plane_and_crew_by": "SkyWest DBA United Express"
         }
       ],
       "layovers": [
         {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
+          "duration": 165,
+          "name": "Denver International Airport",
+          "id": "DEN"
         }
       ]
     }
@@ -5585,9 +4094,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-12-16",
     "return_date": "2026-12-19",
-    "price": 299,
+    "price": 375,
     "outbound_flight": {
-      "price": 299,
+      "price": 375,
       "total_duration": 290,
       "flights": [
         {
@@ -5652,7 +4161,7 @@
       ]
     },
     "return_flight": {
-      "price": 299,
+      "price": 375,
       "total_duration": 280,
       "flights": [
         {
@@ -5721,9 +4230,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-12-19",
     "return_date": "2026-12-23",
-    "price": 466,
+    "price": 521,
     "outbound_flight": {
-      "price": 471,
+      "price": 521,
       "total_duration": 290,
       "flights": [
         {
@@ -5788,7 +4297,7 @@
       ]
     },
     "return_flight": {
-      "price": 466,
+      "price": 521,
       "total_duration": 280,
       "flights": [
         {
@@ -5857,134 +4366,136 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-12-23",
     "return_date": "2026-12-26",
-    "price": 541,
+    "price": 608,
     "outbound_flight": {
-      "price": 541,
-      "total_duration": 290,
+      "price": 608,
+      "total_duration": 580,
       "flights": [
         {
           "departure_airport": {
             "name": "Lincoln Airport",
             "id": "LNK",
-            "time": "2026-12-23 14:50"
+            "time": "2026-12-23 07:00"
           },
           "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-12-23 15:45"
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-12-23 09:10"
           },
-          "duration": 175,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 130,
+          "airplane": "Canadair RJ 700",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
+          "flight_number": "AA 4958",
+          "legroom": "31 in",
           "extensions": [
-            "Average legroom (30 in)",
+            "Average legroom (31 in)",
             "Wi-Fi for a fee",
-            "In-seat USB outlet",
+            "In-seat power & USB outlets",
             "Stream media to your device",
-            "Carbon emissions estimate: 203 kg"
-          ]
+            "Carbon emissions estimate: 149 kg"
+          ],
+          "plane_and_crew_by": "SkyWest Airlines as American Eagle"
         },
         {
           "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-12-23 16:25"
+            "name": "Chicago O'Hare International Airport",
+            "id": "ORD",
+            "time": "2026-12-23 12:00"
           },
           "arrival_airport": {
             "name": "John Wayne Airport",
             "id": "SNA",
-            "time": "2026-12-23 17:40"
+            "time": "2026-12-23 14:40"
           },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 280,
+          "airplane": "Boeing 737MAX 8 Passenger",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 619",
+          "flight_number": "AA 2212",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
             "Stream media to your device",
-            "Carbon emissions estimate: 68 kg"
+            "Carbon emissions estimate: 201 kg"
           ]
         }
       ],
       "layovers": [
         {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
+          "duration": 170,
+          "name": "Chicago O'Hare International Airport",
+          "id": "ORD"
         }
       ]
     },
     "return_flight": {
-      "price": 541,
-      "total_duration": 280,
+      "price": 608,
+      "total_duration": 329,
       "flights": [
         {
           "departure_airport": {
             "name": "John Wayne Airport",
             "id": "SNA",
-            "time": "2026-12-26 07:30"
+            "time": "2026-12-26 09:55"
           },
           "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-12-26 08:45"
+            "name": "Phoenix Sky Harbor International Airport",
+            "id": "PHX",
+            "time": "2026-12-26 12:20"
           },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 85,
+          "airplane": "Airbus A321neo",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 466",
+          "flight_number": "AA 2214",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
+            "Free Wi-Fi",
+            "In-seat power & USB outlets",
             "Stream media to your device",
-            "Carbon emissions estimate: 73 kg"
+            "Carbon emissions estimate: 64 kg"
           ]
         },
         {
           "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-12-26 09:25"
+            "name": "Phoenix Sky Harbor International Airport",
+            "id": "PHX",
+            "time": "2026-12-26 13:41"
           },
           "arrival_airport": {
             "name": "Lincoln Airport",
             "id": "LNK",
-            "time": "2026-12-26 14:10"
+            "time": "2026-12-26 17:24"
           },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 163,
+          "airplane": "Canadair RJ 700",
+          "airline": "American",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 466",
-          "legroom": "30 in",
+          "flight_number": "AA 6252",
+          "legroom": "31 in",
           "extensions": [
-            "Average legroom (30 in)",
+            "Average legroom (31 in)",
             "Wi-Fi for a fee",
-            "In-seat USB outlet",
+            "In-seat power & USB outlets",
             "Stream media to your device",
-            "Carbon emissions estimate: 203 kg"
-          ]
+            "Carbon emissions estimate: 251 kg"
+          ],
+          "plane_and_crew_by": "SkyWest Airlines as American Eagle"
         }
       ],
       "layovers": [
         {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
+          "duration": 81,
+          "name": "Phoenix Sky Harbor International Airport",
+          "id": "PHX"
         }
       ]
     }
@@ -5993,9 +4504,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-12-26",
     "return_date": "2026-12-30",
-    "price": 436,
+    "price": 605,
     "outbound_flight": {
-      "price": 436,
+      "price": 605,
       "total_duration": 290,
       "flights": [
         {
@@ -6060,7 +4571,7 @@
       ]
     },
     "return_flight": {
-      "price": 436,
+      "price": 605,
       "total_duration": 280,
       "flights": [
         {
@@ -6129,134 +4640,137 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-12-30",
     "return_date": "2027-01-02",
-    "price": 392,
+    "price": 717,
     "outbound_flight": {
-      "price": 392,
-      "total_duration": 290,
+      "price": 717,
+      "total_duration": 811,
       "flights": [
         {
           "departure_airport": {
             "name": "Lincoln Airport",
             "id": "LNK",
-            "time": "2026-12-30 14:50"
+            "time": "2026-12-30 06:00"
           },
           "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-12-30 15:45"
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2026-12-30 06:59"
           },
-          "duration": 175,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 119,
+          "airplane": "Bombardier Regional Jet 550",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 619",
+          "flight_number": "UA 5866",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
-            "Wi-Fi for a fee",
+            "Free Wi-Fi",
             "In-seat USB outlet",
             "Stream media to your device",
-            "Carbon emissions estimate: 203 kg"
-          ]
+            "Carbon emissions estimate: 167 kg"
+          ],
+          "plane_and_crew_by": "SkyWest DBA United Express"
         },
         {
           "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-12-30 16:25"
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2026-12-30 15:57"
           },
           "arrival_airport": {
             "name": "John Wayne Airport",
             "id": "SNA",
-            "time": "2026-12-30 17:40"
+            "time": "2026-12-30 17:31"
           },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 154,
+          "airplane": "Airbus A320",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 619",
+          "flight_number": "UA 2730",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
             "Wi-Fi for a fee",
-            "In-seat USB outlet",
+            "In-seat power & USB outlets",
             "Stream media to your device",
-            "Carbon emissions estimate: 68 kg"
+            "Carbon emissions estimate: 136 kg"
           ]
         }
       ],
       "layovers": [
         {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
+          "duration": 538,
+          "name": "Denver International Airport",
+          "id": "DEN"
         }
       ]
     },
     "return_flight": {
-      "price": 392,
-      "total_duration": 280,
+      "price": 717,
+      "total_duration": 850,
       "flights": [
         {
           "departure_airport": {
             "name": "John Wayne Airport",
             "id": "SNA",
-            "time": "2027-01-02 07:30"
+            "time": "2027-01-02 06:48"
           },
           "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2027-01-02 08:45"
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2027-01-02 10:21"
           },
-          "duration": 75,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 153,
+          "airplane": "Airbus A319",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 466",
+          "flight_number": "UA 1378",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
             "Wi-Fi for a fee",
-            "In-seat USB outlet",
+            "In-seat power & USB outlets",
             "Stream media to your device",
-            "Carbon emissions estimate: 72 kg"
+            "Carbon emissions estimate: 157 kg"
           ]
         },
         {
           "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2027-01-02 09:25"
+            "name": "Denver International Airport",
+            "id": "DEN",
+            "time": "2027-01-02 20:25"
           },
           "arrival_airport": {
             "name": "Lincoln Airport",
             "id": "LNK",
-            "time": "2027-01-02 14:10"
+            "time": "2027-01-02 22:58"
           },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "duration": 93,
+          "airplane": "Bombardier Regional Jet 550",
+          "airline": "United",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
           "travel_class": "Economy",
-          "flight_number": "MX 466",
+          "flight_number": "UA 5824",
           "legroom": "30 in",
           "extensions": [
             "Average legroom (30 in)",
-            "Wi-Fi for a fee",
+            "Free Wi-Fi",
             "In-seat USB outlet",
             "Stream media to your device",
-            "Carbon emissions estimate: 203 kg"
-          ]
+            "Carbon emissions estimate: 165 kg"
+          ],
+          "often_delayed_by_over_30_min": true,
+          "plane_and_crew_by": "SkyWest DBA United Express"
         }
       ],
       "layovers": [
         {
-          "duration": 40,
-          "name": "Harry Reid International Airport",
-          "id": "LAS"
+          "duration": 604,
+          "name": "Denver International Airport",
+          "id": "DEN"
         }
       ]
     }
@@ -6265,9 +4779,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2027-01-02",
     "return_date": "2027-01-06",
-    "price": 345,
+    "price": 375,
     "outbound_flight": {
-      "price": 345,
+      "price": 375,
       "total_duration": 290,
       "flights": [
         {
@@ -6332,7 +4846,7 @@
       ]
     },
     "return_flight": {
-      "price": 345,
+      "price": 375,
       "total_duration": 280,
       "flights": [
         {
@@ -6401,9 +4915,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2027-01-06",
     "return_date": "2027-01-09",
-    "price": 259,
+    "price": 282,
     "outbound_flight": {
-      "price": 259,
+      "price": 282,
       "total_duration": 295,
       "flights": [
         {
@@ -6468,7 +4982,7 @@
       ]
     },
     "return_flight": {
-      "price": 259,
+      "price": 282,
       "total_duration": 280,
       "flights": [
         {
@@ -6537,9 +5051,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2027-01-09",
     "return_date": "2027-01-13",
-    "price": 210,
+    "price": 213,
     "outbound_flight": {
-      "price": 210,
+      "price": 213,
       "total_duration": 295,
       "flights": [
         {
@@ -6604,7 +5118,7 @@
       ]
     },
     "return_flight": {
-      "price": 210,
+      "price": 213,
       "total_duration": 280,
       "flights": [
         {
@@ -6673,9 +5187,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2027-01-13",
     "return_date": "2027-01-16",
-    "price": 171,
+    "price": 176,
     "outbound_flight": {
-      "price": 171,
+      "price": 176,
       "total_duration": 295,
       "flights": [
         {
@@ -6740,7 +5254,7 @@
       ]
     },
     "return_flight": {
-      "price": 171,
+      "price": 176,
       "total_duration": 280,
       "flights": [
         {
@@ -6809,9 +5323,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2027-01-16",
     "return_date": "2027-01-20",
-    "price": 184,
+    "price": 180,
     "outbound_flight": {
-      "price": 184,
+      "price": 180,
       "total_duration": 295,
       "flights": [
         {
@@ -6876,7 +5390,7 @@
       ]
     },
     "return_flight": {
-      "price": 184,
+      "price": 180,
       "total_duration": 280,
       "flights": [
         {
@@ -6945,9 +5459,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2027-01-20",
     "return_date": "2027-01-23",
-    "price": 190,
+    "price": 193,
     "outbound_flight": {
-      "price": 190,
+      "price": 193,
       "total_duration": 295,
       "flights": [
         {
@@ -7012,7 +5526,7 @@
       ]
     },
     "return_flight": {
-      "price": 190,
+      "price": 193,
       "total_duration": 280,
       "flights": [
         {
@@ -7065,6 +5579,1638 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 203 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    }
+  },
+  {
+    "trip_type": "Saturday-Wednesday",
+    "outbound_date": "2027-01-23",
+    "return_date": "2027-01-27",
+    "price": 278,
+    "outbound_flight": {
+      "price": 278,
+      "total_duration": 295,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-01-23 14:50"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-01-23 15:50"
+          },
+          "duration": 180,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 203 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-01-23 16:30"
+          },
+          "arrival_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-01-23 17:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 68 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    },
+    "return_flight": {
+      "price": 278,
+      "total_duration": 280,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-01-27 07:30"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-01-27 08:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 72 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-01-27 09:25"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-01-27 14:10"
+          },
+          "duration": 165,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 203 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    }
+  },
+  {
+    "trip_type": "Wednesday-Saturday",
+    "outbound_date": "2027-01-27",
+    "return_date": "2027-01-30",
+    "price": 163,
+    "outbound_flight": {
+      "price": 163,
+      "total_duration": 295,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-01-27 14:50"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-01-27 15:50"
+          },
+          "duration": 180,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 203 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-01-27 16:30"
+          },
+          "arrival_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-01-27 17:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 68 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    },
+    "return_flight": {
+      "price": 163,
+      "total_duration": 280,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-01-30 07:30"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-01-30 08:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 72 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-01-30 09:25"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-01-30 14:10"
+          },
+          "duration": 165,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 203 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    }
+  },
+  {
+    "trip_type": "Saturday-Wednesday",
+    "outbound_date": "2027-01-30",
+    "return_date": "2027-02-03",
+    "price": 163,
+    "outbound_flight": {
+      "price": 163,
+      "total_duration": 295,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-01-30 14:50"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-01-30 15:50"
+          },
+          "duration": 180,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 203 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-01-30 16:30"
+          },
+          "arrival_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-01-30 17:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 68 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    },
+    "return_flight": {
+      "price": 163,
+      "total_duration": 280,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-02-03 07:30"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-03 08:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 71 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-03 09:25"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-02-03 14:10"
+          },
+          "duration": 165,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 198 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    }
+  },
+  {
+    "trip_type": "Wednesday-Saturday",
+    "outbound_date": "2027-02-03",
+    "return_date": "2027-02-06",
+    "price": 207,
+    "outbound_flight": {
+      "price": 207,
+      "total_duration": 295,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-02-03 14:50"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-03 15:50"
+          },
+          "duration": 180,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 198 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-03 16:30"
+          },
+          "arrival_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-02-03 17:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 66 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    },
+    "return_flight": {
+      "price": 207,
+      "total_duration": 280,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-02-06 07:30"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-06 08:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 71 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-06 09:25"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-02-06 14:10"
+          },
+          "duration": 165,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 198 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    }
+  },
+  {
+    "trip_type": "Saturday-Wednesday",
+    "outbound_date": "2027-02-06",
+    "return_date": "2027-02-10",
+    "price": 184,
+    "outbound_flight": {
+      "price": 184,
+      "total_duration": 295,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-02-06 14:50"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-06 15:50"
+          },
+          "duration": 180,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 198 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-06 16:30"
+          },
+          "arrival_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-02-06 17:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 66 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    },
+    "return_flight": {
+      "price": 184,
+      "total_duration": 280,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-02-10 07:30"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-10 08:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 71 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-10 09:25"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-02-10 14:10"
+          },
+          "duration": 165,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 198 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    }
+  },
+  {
+    "trip_type": "Wednesday-Saturday",
+    "outbound_date": "2027-02-10",
+    "return_date": "2027-02-13",
+    "price": 221,
+    "outbound_flight": {
+      "price": 221,
+      "total_duration": 295,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-02-10 14:50"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-10 15:50"
+          },
+          "duration": 180,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 198 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-10 16:30"
+          },
+          "arrival_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-02-10 17:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 66 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    },
+    "return_flight": {
+      "price": 221,
+      "total_duration": 280,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-02-13 07:30"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-13 08:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 71 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-13 09:25"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-02-13 14:10"
+          },
+          "duration": 165,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 198 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    }
+  },
+  {
+    "trip_type": "Saturday-Wednesday",
+    "outbound_date": "2027-02-13",
+    "return_date": "2027-02-17",
+    "price": 349,
+    "outbound_flight": {
+      "price": 349,
+      "total_duration": 295,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-02-13 14:50"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-13 15:50"
+          },
+          "duration": 180,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 198 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-13 16:30"
+          },
+          "arrival_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-02-13 17:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 66 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    },
+    "return_flight": {
+      "price": 349,
+      "total_duration": 280,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-02-17 07:30"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-17 08:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 71 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-17 09:25"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-02-17 14:10"
+          },
+          "duration": 165,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 198 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    }
+  },
+  {
+    "trip_type": "Wednesday-Saturday",
+    "outbound_date": "2027-02-17",
+    "return_date": "2027-02-20",
+    "price": 252,
+    "outbound_flight": {
+      "price": 252,
+      "total_duration": 295,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-02-17 14:50"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-17 15:50"
+          },
+          "duration": 180,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 198 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-17 16:30"
+          },
+          "arrival_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-02-17 17:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 66 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    },
+    "return_flight": {
+      "price": 252,
+      "total_duration": 280,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-02-20 07:30"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-20 08:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 71 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-20 09:25"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-02-20 14:10"
+          },
+          "duration": 165,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 198 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    }
+  },
+  {
+    "trip_type": "Saturday-Wednesday",
+    "outbound_date": "2027-02-20",
+    "return_date": "2027-02-24",
+    "price": 188,
+    "outbound_flight": {
+      "price": 188,
+      "total_duration": 295,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-02-20 14:50"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-20 15:50"
+          },
+          "duration": 180,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 198 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-20 16:30"
+          },
+          "arrival_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-02-20 17:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 66 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    },
+    "return_flight": {
+      "price": 188,
+      "total_duration": 280,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-02-24 07:30"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-24 08:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 71 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-24 09:25"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-02-24 14:10"
+          },
+          "duration": 165,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 198 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    }
+  },
+  {
+    "trip_type": "Wednesday-Saturday",
+    "outbound_date": "2027-02-24",
+    "return_date": "2027-02-27",
+    "price": 211,
+    "outbound_flight": {
+      "price": 211,
+      "total_duration": 295,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-02-24 14:50"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-24 15:50"
+          },
+          "duration": 180,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 198 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-24 16:30"
+          },
+          "arrival_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-02-24 17:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 66 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    },
+    "return_flight": {
+      "price": 211,
+      "total_duration": 280,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-02-27 07:30"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-27 08:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 71 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-27 09:25"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-02-27 14:10"
+          },
+          "duration": 165,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 198 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    }
+  },
+  {
+    "trip_type": "Saturday-Wednesday",
+    "outbound_date": "2027-02-27",
+    "return_date": "2027-03-03",
+    "price": 338,
+    "outbound_flight": {
+      "price": 338,
+      "total_duration": 295,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-02-27 14:50"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-27 15:50"
+          },
+          "duration": 180,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 198 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-02-27 16:30"
+          },
+          "arrival_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-02-27 17:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 66 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    },
+    "return_flight": {
+      "price": 338,
+      "total_duration": 280,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-03-03 07:30"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-03-03 08:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 68 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-03-03 09:25"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-03-03 14:10"
+          },
+          "duration": 165,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 192 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    }
+  },
+  {
+    "trip_type": "Wednesday-Saturday",
+    "outbound_date": "2027-03-03",
+    "return_date": "2027-03-06",
+    "price": 248,
+    "outbound_flight": {
+      "price": 248,
+      "total_duration": 295,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-03-03 14:50"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-03-03 15:50"
+          },
+          "duration": 180,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 192 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-03-03 16:30"
+          },
+          "arrival_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-03-03 17:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 64 kg"
+          ]
+        }
+      ],
+      "layovers": [
+        {
+          "duration": 40,
+          "name": "Harry Reid International Airport",
+          "id": "LAS"
+        }
+      ]
+    },
+    "return_flight": {
+      "price": 248,
+      "total_duration": 280,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "John Wayne Airport",
+            "id": "SNA",
+            "time": "2027-03-06 07:30"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-03-06 08:45"
+          },
+          "duration": 75,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 68 kg"
+          ]
+        },
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-03-06 09:25"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-03-06 14:10"
+          },
+          "duration": 165,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 192 kg"
           ]
         }
       ],
