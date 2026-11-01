@@ -1,668 +1,11 @@
 [
   {
-    "trip_type": "Saturday-Wednesday",
-    "outbound_date": "2026-10-03",
-    "return_date": "2026-10-07",
-    "price": 323,
-    "outbound_flight": {
-      "price": 323,
-      "total_duration": 175,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-10-03 14:50"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-10-03 15:45"
-          },
-          "duration": 175,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 207 kg"
-          ],
-          "often_delayed_by_over_30_min": true
-        }
-      ],
-      "layovers": []
-    },
-    "return_flight": {
-      "price": 323,
-      "total_duration": 165,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-10-07 09:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-10-07 14:10"
-          },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 466",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 207 kg"
-          ]
-        }
-      ],
-      "layovers": []
-    }
-  },
-  {
-    "trip_type": "Wednesday-Saturday",
-    "outbound_date": "2026-10-07",
-    "return_date": "2026-10-10",
-    "price": 333,
-    "outbound_flight": {
-      "price": 333,
-      "total_duration": 175,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-10-07 14:50"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-10-07 15:45"
-          },
-          "duration": 175,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 207 kg"
-          ],
-          "often_delayed_by_over_30_min": true
-        }
-      ],
-      "layovers": []
-    },
-    "return_flight": {
-      "price": 333,
-      "total_duration": 165,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-10-10 09:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-10-10 14:10"
-          },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 466",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 207 kg"
-          ]
-        }
-      ],
-      "layovers": []
-    }
-  },
-  {
-    "trip_type": "Saturday-Wednesday",
-    "outbound_date": "2026-10-10",
-    "return_date": "2026-10-14",
-    "price": 248,
-    "outbound_flight": {
-      "price": 248,
-      "total_duration": 175,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-10-10 14:50"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-10-10 15:45"
-          },
-          "duration": 175,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 207 kg"
-          ],
-          "often_delayed_by_over_30_min": true
-        }
-      ],
-      "layovers": []
-    },
-    "return_flight": {
-      "price": 248,
-      "total_duration": 165,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-10-14 09:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-10-14 14:10"
-          },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 466",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 207 kg"
-          ]
-        }
-      ],
-      "layovers": []
-    }
-  },
-  {
-    "trip_type": "Wednesday-Saturday",
-    "outbound_date": "2026-10-14",
-    "return_date": "2026-10-17",
-    "price": 233,
-    "outbound_flight": {
-      "price": 233,
-      "total_duration": 175,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-10-14 14:50"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-10-14 15:45"
-          },
-          "duration": 175,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 207 kg"
-          ],
-          "often_delayed_by_over_30_min": true
-        }
-      ],
-      "layovers": []
-    },
-    "return_flight": {
-      "price": 233,
-      "total_duration": 165,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-10-17 09:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-10-17 14:10"
-          },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 466",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 207 kg"
-          ]
-        }
-      ],
-      "layovers": []
-    }
-  },
-  {
-    "trip_type": "Saturday-Wednesday",
-    "outbound_date": "2026-10-17",
-    "return_date": "2026-10-21",
-    "price": 183,
-    "outbound_flight": {
-      "price": 183,
-      "total_duration": 175,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-10-17 14:50"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-10-17 15:45"
-          },
-          "duration": 175,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 207 kg"
-          ],
-          "often_delayed_by_over_30_min": true
-        }
-      ],
-      "layovers": []
-    },
-    "return_flight": {
-      "price": 183,
-      "total_duration": 165,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-10-21 09:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-10-21 14:10"
-          },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 466",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 207 kg"
-          ]
-        }
-      ],
-      "layovers": []
-    }
-  },
-  {
-    "trip_type": "Wednesday-Saturday",
-    "outbound_date": "2026-10-21",
-    "return_date": "2026-10-24",
-    "price": 183,
-    "outbound_flight": {
-      "price": 183,
-      "total_duration": 175,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-10-21 14:50"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-10-21 15:45"
-          },
-          "duration": 175,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 207 kg"
-          ],
-          "often_delayed_by_over_30_min": true
-        }
-      ],
-      "layovers": []
-    },
-    "return_flight": {
-      "price": 183,
-      "total_duration": 165,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-10-24 09:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-10-24 14:10"
-          },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 466",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 207 kg"
-          ]
-        }
-      ],
-      "layovers": []
-    }
-  },
-  {
-    "trip_type": "Saturday-Wednesday",
-    "outbound_date": "2026-10-24",
-    "return_date": "2026-10-28",
-    "price": 163,
-    "outbound_flight": {
-      "price": 163,
-      "total_duration": 175,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-10-24 14:50"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-10-24 15:45"
-          },
-          "duration": 175,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 207 kg"
-          ],
-          "often_delayed_by_over_30_min": true
-        }
-      ],
-      "layovers": []
-    },
-    "return_flight": {
-      "price": 163,
-      "total_duration": 165,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-10-28 09:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-10-28 14:10"
-          },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 466",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 207 kg"
-          ]
-        }
-      ],
-      "layovers": []
-    }
-  },
-  {
-    "trip_type": "Wednesday-Saturday",
-    "outbound_date": "2026-10-28",
-    "return_date": "2026-10-31",
-    "price": 163,
-    "outbound_flight": {
-      "price": 163,
-      "total_duration": 175,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-10-28 14:50"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-10-28 15:45"
-          },
-          "duration": 175,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 207 kg"
-          ],
-          "often_delayed_by_over_30_min": true
-        }
-      ],
-      "layovers": []
-    },
-    "return_flight": {
-      "price": 163,
-      "total_duration": 165,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-10-31 09:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-10-31 14:10"
-          },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 466",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 207 kg"
-          ]
-        }
-      ],
-      "layovers": []
-    }
-  },
-  {
-    "trip_type": "Saturday-Wednesday",
-    "outbound_date": "2026-10-31",
-    "return_date": "2026-11-04",
-    "price": 163,
-    "outbound_flight": {
-      "price": 163,
-      "total_duration": 175,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-10-31 14:50"
-          },
-          "arrival_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-10-31 15:45"
-          },
-          "duration": 175,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 619",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 207 kg"
-          ],
-          "often_delayed_by_over_30_min": true
-        }
-      ],
-      "layovers": []
-    },
-    "return_flight": {
-      "price": 163,
-      "total_duration": 165,
-      "flights": [
-        {
-          "departure_airport": {
-            "name": "Harry Reid International Airport",
-            "id": "LAS",
-            "time": "2026-11-04 09:25"
-          },
-          "arrival_airport": {
-            "name": "Lincoln Airport",
-            "id": "LNK",
-            "time": "2026-11-04 14:10"
-          },
-          "duration": 165,
-          "airplane": "Airbus A220-300 Passenger",
-          "airline": "Breeze",
-          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
-          "travel_class": "Economy",
-          "flight_number": "MX 466",
-          "legroom": "30 in",
-          "extensions": [
-            "Average legroom (30 in)",
-            "Wi-Fi for a fee",
-            "In-seat USB outlet",
-            "Stream media to your device",
-            "Carbon emissions estimate: 202 kg"
-          ]
-        }
-      ],
-      "layovers": []
-    }
-  },
-  {
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-11-04",
     "return_date": "2026-11-07",
-    "price": 258,
+    "price": 338,
     "outbound_flight": {
-      "price": 258,
+      "price": 338,
       "total_duration": 175,
       "flights": [
         {
@@ -689,14 +32,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 202 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 258,
+      "price": 338,
       "total_duration": 165,
       "flights": [
         {
@@ -733,9 +75,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-11-07",
     "return_date": "2026-11-11",
-    "price": 158,
+    "price": 248,
     "outbound_flight": {
-      "price": 158,
+      "price": 248,
       "total_duration": 175,
       "flights": [
         {
@@ -762,14 +104,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 202 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 158,
+      "price": 248,
       "total_duration": 165,
       "flights": [
         {
@@ -806,9 +147,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-11-11",
     "return_date": "2026-11-14",
-    "price": 178,
+    "price": 173,
     "outbound_flight": {
-      "price": 178,
+      "price": 173,
       "total_duration": 175,
       "flights": [
         {
@@ -835,14 +176,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 202 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 178,
+      "price": 173,
       "total_duration": 165,
       "flights": [
         {
@@ -908,8 +248,7 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 202 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
@@ -981,8 +320,7 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 202 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
@@ -1025,9 +363,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-11-21",
     "return_date": "2026-11-25",
-    "price": 178,
+    "price": 158,
     "outbound_flight": {
-      "price": 178,
+      "price": 158,
       "total_duration": 175,
       "flights": [
         {
@@ -1054,14 +392,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 202 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 178,
+      "price": 158,
       "total_duration": 165,
       "flights": [
         {
@@ -1098,9 +435,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-11-25",
     "return_date": "2026-11-28",
-    "price": 368,
+    "price": 423,
     "outbound_flight": {
-      "price": 368,
+      "price": 423,
       "total_duration": 175,
       "flights": [
         {
@@ -1127,14 +464,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 202 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 368,
+      "price": 423,
       "total_duration": 165,
       "flights": [
         {
@@ -1171,9 +507,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-11-28",
     "return_date": "2026-12-02",
-    "price": 153,
+    "price": 168,
     "outbound_flight": {
-      "price": 153,
+      "price": 168,
       "total_duration": 175,
       "flights": [
         {
@@ -1200,14 +536,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 202 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 153,
+      "price": 168,
       "total_duration": 165,
       "flights": [
         {
@@ -1244,9 +579,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-12-02",
     "return_date": "2026-12-05",
-    "price": 233,
+    "price": 178,
     "outbound_flight": {
-      "price": 233,
+      "price": 178,
       "total_duration": 175,
       "flights": [
         {
@@ -1273,14 +608,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 203 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 233,
+      "price": 178,
       "total_duration": 165,
       "flights": [
         {
@@ -1317,9 +651,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-12-05",
     "return_date": "2026-12-09",
-    "price": 218,
+    "price": 203,
     "outbound_flight": {
-      "price": 218,
+      "price": 203,
       "total_duration": 175,
       "flights": [
         {
@@ -1346,14 +680,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 203 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 218,
+      "price": 203,
       "total_duration": 165,
       "flights": [
         {
@@ -1390,9 +723,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-12-09",
     "return_date": "2026-12-12",
-    "price": 298,
+    "price": 228,
     "outbound_flight": {
-      "price": 298,
+      "price": 228,
       "total_duration": 175,
       "flights": [
         {
@@ -1419,14 +752,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 203 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 298,
+      "price": 228,
       "total_duration": 165,
       "flights": [
         {
@@ -1463,9 +795,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-12-12",
     "return_date": "2026-12-16",
-    "price": 223,
+    "price": 178,
     "outbound_flight": {
-      "price": 223,
+      "price": 178,
       "total_duration": 175,
       "flights": [
         {
@@ -1492,14 +824,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 203 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 223,
+      "price": 178,
       "total_duration": 165,
       "flights": [
         {
@@ -1536,9 +867,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-12-16",
     "return_date": "2026-12-19",
-    "price": 188,
+    "price": 173,
     "outbound_flight": {
-      "price": 188,
+      "price": 173,
       "total_duration": 175,
       "flights": [
         {
@@ -1565,14 +896,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 203 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 188,
+      "price": 173,
       "total_duration": 165,
       "flights": [
         {
@@ -1609,9 +939,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-12-19",
     "return_date": "2026-12-23",
-    "price": 328,
+    "price": 268,
     "outbound_flight": {
-      "price": 328,
+      "price": 268,
       "total_duration": 175,
       "flights": [
         {
@@ -1638,14 +968,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 203 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 328,
+      "price": 268,
       "total_duration": 165,
       "flights": [
         {
@@ -1682,9 +1011,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-12-23",
     "return_date": "2026-12-26",
-    "price": 268,
+    "price": 223,
     "outbound_flight": {
-      "price": 268,
+      "price": 223,
       "total_duration": 175,
       "flights": [
         {
@@ -1711,14 +1040,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 203 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 268,
+      "price": 223,
       "total_duration": 165,
       "flights": [
         {
@@ -1755,9 +1083,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2026-12-26",
     "return_date": "2026-12-30",
-    "price": 328,
+    "price": 288,
     "outbound_flight": {
-      "price": 328,
+      "price": 288,
       "total_duration": 175,
       "flights": [
         {
@@ -1784,14 +1112,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 203 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 328,
+      "price": 288,
       "total_duration": 165,
       "flights": [
         {
@@ -1828,9 +1155,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2026-12-30",
     "return_date": "2027-01-02",
-    "price": 428,
+    "price": 328,
     "outbound_flight": {
-      "price": 428,
+      "price": 328,
       "total_duration": 175,
       "flights": [
         {
@@ -1857,14 +1184,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 203 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 428,
+      "price": 328,
       "total_duration": 165,
       "flights": [
         {
@@ -1930,8 +1256,7 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 203 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
@@ -1974,9 +1299,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2027-01-06",
     "return_date": "2027-01-09",
-    "price": 153,
+    "price": 158,
     "outbound_flight": {
-      "price": 153,
+      "price": 158,
       "total_duration": 180,
       "flights": [
         {
@@ -2003,14 +1328,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 203 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 153,
+      "price": 158,
       "total_duration": 165,
       "flights": [
         {
@@ -2047,9 +1371,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2027-01-09",
     "return_date": "2027-01-13",
-    "price": 163,
+    "price": 173,
     "outbound_flight": {
-      "price": 163,
+      "price": 173,
       "total_duration": 180,
       "flights": [
         {
@@ -2076,14 +1400,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 203 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 163,
+      "price": 173,
       "total_duration": 165,
       "flights": [
         {
@@ -2149,8 +1472,7 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 203 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
@@ -2193,9 +1515,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2027-01-16",
     "return_date": "2027-01-20",
-    "price": 138,
+    "price": 143,
     "outbound_flight": {
-      "price": 138,
+      "price": 143,
       "total_duration": 180,
       "flights": [
         {
@@ -2222,14 +1544,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 203 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 138,
+      "price": 143,
       "total_duration": 165,
       "flights": [
         {
@@ -2295,8 +1616,7 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 203 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
@@ -2339,9 +1659,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2027-01-23",
     "return_date": "2027-01-27",
-    "price": 178,
+    "price": 138,
     "outbound_flight": {
-      "price": 178,
+      "price": 138,
       "total_duration": 180,
       "flights": [
         {
@@ -2368,14 +1688,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 203 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 178,
+      "price": 138,
       "total_duration": 165,
       "flights": [
         {
@@ -2412,9 +1731,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2027-01-27",
     "return_date": "2027-01-30",
-    "price": 238,
+    "price": 188,
     "outbound_flight": {
-      "price": 238,
+      "price": 188,
       "total_duration": 180,
       "flights": [
         {
@@ -2441,14 +1760,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 203 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 238,
+      "price": 188,
       "total_duration": 165,
       "flights": [
         {
@@ -2514,8 +1832,7 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 203 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
@@ -2558,9 +1875,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2027-02-03",
     "return_date": "2027-02-06",
-    "price": 163,
+    "price": 248,
     "outbound_flight": {
-      "price": 163,
+      "price": 248,
       "total_duration": 180,
       "flights": [
         {
@@ -2587,14 +1904,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 198 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 163,
+      "price": 248,
       "total_duration": 165,
       "flights": [
         {
@@ -2660,8 +1976,7 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 198 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
@@ -2733,8 +2048,7 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 198 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
@@ -2777,9 +2091,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2027-02-13",
     "return_date": "2027-02-17",
-    "price": 218,
+    "price": 183,
     "outbound_flight": {
-      "price": 218,
+      "price": 183,
       "total_duration": 180,
       "flights": [
         {
@@ -2806,14 +2120,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 198 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 218,
+      "price": 183,
       "total_duration": 165,
       "flights": [
         {
@@ -2850,9 +2163,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2027-02-17",
     "return_date": "2027-02-20",
-    "price": 218,
+    "price": 168,
     "outbound_flight": {
-      "price": 218,
+      "price": 168,
       "total_duration": 180,
       "flights": [
         {
@@ -2879,14 +2192,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 198 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 218,
+      "price": 168,
       "total_duration": 165,
       "flights": [
         {
@@ -2952,8 +2264,7 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 198 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
@@ -3025,8 +2336,7 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 198 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
@@ -3069,9 +2379,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2027-02-27",
     "return_date": "2027-03-03",
-    "price": 278,
+    "price": 218,
     "outbound_flight": {
-      "price": 278,
+      "price": 218,
       "total_duration": 180,
       "flights": [
         {
@@ -3098,14 +2408,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 198 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 278,
+      "price": 218,
       "total_duration": 165,
       "flights": [
         {
@@ -3142,9 +2451,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2027-03-03",
     "return_date": "2027-03-06",
-    "price": 168,
+    "price": 158,
     "outbound_flight": {
-      "price": 168,
+      "price": 158,
       "total_duration": 180,
       "flights": [
         {
@@ -3171,14 +2480,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 192 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 168,
+      "price": 158,
       "total_duration": 165,
       "flights": [
         {
@@ -3215,9 +2523,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2027-03-06",
     "return_date": "2027-03-10",
-    "price": 238,
+    "price": 258,
     "outbound_flight": {
-      "price": 238,
+      "price": 258,
       "total_duration": 180,
       "flights": [
         {
@@ -3244,14 +2552,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 192 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 238,
+      "price": 258,
       "total_duration": 165,
       "flights": [
         {
@@ -3288,9 +2595,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2027-03-10",
     "return_date": "2027-03-13",
-    "price": 238,
+    "price": 268,
     "outbound_flight": {
-      "price": 238,
+      "price": 268,
       "total_duration": 180,
       "flights": [
         {
@@ -3317,14 +2624,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 192 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 238,
+      "price": 268,
       "total_duration": 165,
       "flights": [
         {
@@ -3361,9 +2667,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2027-03-13",
     "return_date": "2027-03-17",
-    "price": 213,
+    "price": 298,
     "outbound_flight": {
-      "price": 213,
+      "price": 298,
       "total_duration": 180,
       "flights": [
         {
@@ -3390,14 +2696,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 192 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 213,
+      "price": 298,
       "total_duration": 165,
       "flights": [
         {
@@ -3463,8 +2768,7 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 192 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
@@ -3507,9 +2811,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2027-03-20",
     "return_date": "2027-03-24",
-    "price": 468,
+    "price": 248,
     "outbound_flight": {
-      "price": 468,
+      "price": 248,
       "total_duration": 180,
       "flights": [
         {
@@ -3536,14 +2840,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 192 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 468,
+      "price": 248,
       "total_duration": 166,
       "flights": [
         {
@@ -3580,9 +2883,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2027-03-24",
     "return_date": "2027-03-27",
-    "price": 768,
+    "price": 183,
     "outbound_flight": {
-      "price": 768,
+      "price": 183,
       "total_duration": 184,
       "flights": [
         {
@@ -3609,14 +2912,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 192 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 768,
+      "price": 183,
       "total_duration": 166,
       "flights": [
         {
@@ -3653,9 +2955,9 @@
     "trip_type": "Saturday-Wednesday",
     "outbound_date": "2027-03-27",
     "return_date": "2027-03-31",
-    "price": 698,
+    "price": 173,
     "outbound_flight": {
-      "price": 698,
+      "price": 173,
       "total_duration": 184,
       "flights": [
         {
@@ -3682,14 +2984,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 192 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 698,
+      "price": 173,
       "total_duration": 166,
       "flights": [
         {
@@ -3726,9 +3027,9 @@
     "trip_type": "Wednesday-Saturday",
     "outbound_date": "2027-03-31",
     "return_date": "2027-04-03",
-    "price": 778,
+    "price": 228,
     "outbound_flight": {
-      "price": 778,
+      "price": 228,
       "total_duration": 184,
       "flights": [
         {
@@ -3755,14 +3056,13 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 192 kg"
-          ],
-          "often_delayed_by_over_30_min": true
+          ]
         }
       ],
       "layovers": []
     },
     "return_flight": {
-      "price": 778,
+      "price": 228,
       "total_duration": 166,
       "flights": [
         {
@@ -3789,6 +3089,654 @@
             "In-seat USB outlet",
             "Stream media to your device",
             "Carbon emissions estimate: 190 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    }
+  },
+  {
+    "trip_type": "Saturday-Wednesday",
+    "outbound_date": "2027-04-03",
+    "return_date": "2027-04-07",
+    "price": 193,
+    "outbound_flight": {
+      "price": 193,
+      "total_duration": 184,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-04-03 14:55"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-04-03 15:59"
+          },
+          "duration": 184,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    },
+    "return_flight": {
+      "price": 193,
+      "total_duration": 166,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-04-07 09:29"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-04-07 14:15"
+          },
+          "duration": 166,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    }
+  },
+  {
+    "trip_type": "Wednesday-Saturday",
+    "outbound_date": "2027-04-07",
+    "return_date": "2027-04-10",
+    "price": 213,
+    "outbound_flight": {
+      "price": 213,
+      "total_duration": 184,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-04-07 14:55"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-04-07 15:59"
+          },
+          "duration": 184,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    },
+    "return_flight": {
+      "price": 213,
+      "total_duration": 166,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-04-10 09:29"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-04-10 14:15"
+          },
+          "duration": 166,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    }
+  },
+  {
+    "trip_type": "Saturday-Wednesday",
+    "outbound_date": "2027-04-10",
+    "return_date": "2027-04-14",
+    "price": 188,
+    "outbound_flight": {
+      "price": 188,
+      "total_duration": 184,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-04-10 14:55"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-04-10 15:59"
+          },
+          "duration": 184,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    },
+    "return_flight": {
+      "price": 188,
+      "total_duration": 166,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-04-14 09:29"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-04-14 14:15"
+          },
+          "duration": 166,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    }
+  },
+  {
+    "trip_type": "Wednesday-Saturday",
+    "outbound_date": "2027-04-14",
+    "return_date": "2027-04-17",
+    "price": 223,
+    "outbound_flight": {
+      "price": 223,
+      "total_duration": 184,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-04-14 14:55"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-04-14 15:59"
+          },
+          "duration": 184,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    },
+    "return_flight": {
+      "price": 223,
+      "total_duration": 166,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-04-17 09:29"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-04-17 14:15"
+          },
+          "duration": 166,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    }
+  },
+  {
+    "trip_type": "Saturday-Wednesday",
+    "outbound_date": "2027-04-17",
+    "return_date": "2027-04-21",
+    "price": 178,
+    "outbound_flight": {
+      "price": 178,
+      "total_duration": 184,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-04-17 14:55"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-04-17 15:59"
+          },
+          "duration": 184,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    },
+    "return_flight": {
+      "price": 178,
+      "total_duration": 166,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-04-21 09:29"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-04-21 14:15"
+          },
+          "duration": 166,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    }
+  },
+  {
+    "trip_type": "Wednesday-Saturday",
+    "outbound_date": "2027-04-21",
+    "return_date": "2027-04-24",
+    "price": 173,
+    "outbound_flight": {
+      "price": 173,
+      "total_duration": 184,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-04-21 14:55"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-04-21 15:59"
+          },
+          "duration": 184,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    },
+    "return_flight": {
+      "price": 173,
+      "total_duration": 166,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-04-24 09:29"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-04-24 14:15"
+          },
+          "duration": 166,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    }
+  },
+  {
+    "trip_type": "Saturday-Wednesday",
+    "outbound_date": "2027-04-24",
+    "return_date": "2027-04-28",
+    "price": 183,
+    "outbound_flight": {
+      "price": 183,
+      "total_duration": 184,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-04-24 14:55"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-04-24 15:59"
+          },
+          "duration": 184,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    },
+    "return_flight": {
+      "price": 183,
+      "total_duration": 166,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-04-28 09:29"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-04-28 14:15"
+          },
+          "duration": 166,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    }
+  },
+  {
+    "trip_type": "Wednesday-Saturday",
+    "outbound_date": "2027-04-28",
+    "return_date": "2027-05-01",
+    "price": 193,
+    "outbound_flight": {
+      "price": 193,
+      "total_duration": 184,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-04-28 14:55"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-04-28 15:59"
+          },
+          "duration": 184,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 190 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    },
+    "return_flight": {
+      "price": 193,
+      "total_duration": 166,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-05-01 09:29"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-05-01 14:15"
+          },
+          "duration": 166,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 191 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    }
+  },
+  {
+    "trip_type": "Saturday-Wednesday",
+    "outbound_date": "2027-05-01",
+    "return_date": "2027-05-05",
+    "price": 183,
+    "outbound_flight": {
+      "price": 183,
+      "total_duration": 184,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-05-01 14:55"
+          },
+          "arrival_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-05-01 15:59"
+          },
+          "duration": 184,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 619",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 191 kg"
+          ]
+        }
+      ],
+      "layovers": []
+    },
+    "return_flight": {
+      "price": 183,
+      "total_duration": 166,
+      "flights": [
+        {
+          "departure_airport": {
+            "name": "Harry Reid International Airport",
+            "id": "LAS",
+            "time": "2027-05-05 09:29"
+          },
+          "arrival_airport": {
+            "name": "Lincoln Airport",
+            "id": "LNK",
+            "time": "2027-05-05 14:15"
+          },
+          "duration": 166,
+          "airplane": "Airbus A220-300 Passenger",
+          "airline": "Breeze",
+          "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/MX.png",
+          "travel_class": "Economy",
+          "flight_number": "MX 466",
+          "legroom": "30 in",
+          "extensions": [
+            "Average legroom (30 in)",
+            "Wi-Fi for a fee",
+            "In-seat USB outlet",
+            "Stream media to your device",
+            "Carbon emissions estimate: 191 kg"
           ]
         }
       ],
